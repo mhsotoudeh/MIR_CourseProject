@@ -1,0 +1,22 @@
+<page>
+    <title>دایرةالمعارف</title>
+    <ns>0</ns>
+    <id>4115</id>
+    <redirect title="دانشنامه" />
+    <revision>
+      <id>248187</id>
+      <parentid>23370</parentid>
+      <timestamp>2006-07-29T08:34:46Z</timestamp>
+      <contributor>
+        <username>ظهیری</username>
+        <id>2558</id>
+      </contributor>
+      <minor />
+      <comment>ربات: تصحیح مسیر دوتایی</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">#REDIRECT [[دانشنامه]]</text>
+      <sha1>ky9o6somsc9ulsf75gcl4y97r8yfew1</sha1>
+    </revision>
+  </page>
+  

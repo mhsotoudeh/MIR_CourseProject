@@ -1,0 +1,22 @@
+<page>
+    <title>زنگام</title>
+    <ns>0</ns>
+    <id>3885</id>
+    <redirect title="اچ‌تی‌ام‌ال" />
+    <revision>
+      <id>62333</id>
+      <parentid>23188</parentid>
+      <timestamp>2005-11-10T05:58:22Z</timestamp>
+      <contributor>
+        <username>Saki-bot~fawiki</username>
+        <id>2236</id>
+      </contributor>
+      <minor />
+      <comment>Robot: Fixing double redirect</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">#REDIRECT [[اچ‌تی‌ام‌ال]]</text>
+      <sha1>gi6dnu5bjmuymom4dop8q9s3tb8ed5q</sha1>
+    </revision>
+  </page>
+  

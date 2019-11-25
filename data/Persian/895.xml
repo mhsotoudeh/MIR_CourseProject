@@ -1,0 +1,21 @@
+<page>
+    <title>خآب</title>
+    <ns>0</ns>
+    <id>5551</id>
+    <redirect title="کوه خآب" />
+    <revision>
+      <id>313067</id>
+      <parentid>257430</parentid>
+      <timestamp>2006-10-18T21:40:04Z</timestamp>
+      <contributor>
+        <username>ماني</username>
+        <id>173</id>
+      </contributor>
+      <comment>تغییر مسیر به [[کوه خآب]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">#redirect [[کوه خآب]]</text>
+      <sha1>dqis6elq5xc903zs4d219230duop1j9</sha1>
+    </revision>
+  </page>
+  

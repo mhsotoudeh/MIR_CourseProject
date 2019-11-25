@@ -1,0 +1,117 @@
+<page>
+    <title>استان مانیسا</title>
+    <ns>0</ns>
+    <id>4223</id>
+    <revision>
+      <id>15816977</id>
+      <parentid>12568832</parentid>
+      <timestamp>2015-08-27T10:27:44Z</timestamp>
+      <contributor>
+        <username>KasparBot</username>
+        <id>515131</id>
+      </contributor>
+      <comment>قرار دادن {{داده‌های کتابخانه‌ای}} با اطلاعات ویکی‌داده</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">{{Infobox settlement
+&lt;!-- See Template:Infobox settlement for additional fields and descriptions --&gt;
+| name                    = استان مانیسا
+| native_name             = Manisa ili
+| native_name_lang        = &lt;!-- ISO ۶۳۹-۲ code e.g. "fr" for French. If more than one, use {{lang}} instead --&gt;
+| settlement_type         =  [[فهرست استان‌های ترکیه|استان]]
+| image_skyline           = 
+| image_alt               = 
+| image_caption           = 
+| image_flag              = 
+| flag_alt                = 
+| image_seal              = 
+| seal_alt                = 
+| image_shield            = 
+| shield_alt              = 
+| nickname                = 
+| motto                   = 
+| image_map               = Manisa  Turkey Provinces locator.gif
+| map_alt                 = 
+| map_caption             = 
+| image_map1              =Manisa  districts.png
+| mapsize1                =
+| map_alt1                =
+| map_caption1            = 
+| pushpin_map             = 
+| pushpin_label_position  = 
+| pushpin_map_alt         = 
+| pushpin_map_caption     = 
+| latd  = ۳۸ |latm  = ۴۴ |lats  = ۵۸ |latNS  = N
+| longd = ۲۷ |longm = ۰۷ |longs = ۲۲ |longEW = E
+| coor_pinpoint           = 
+| coordinates_type        = 
+| coordinates_display     = inline,title
+| coordinates_footnotes   = 
+| subdivision_type        = [[فهرست کشورهای جهان|کشور]]
+| subdivision_name        = {{TUR}}
+| subdivision_type1       = ناحیه
+| subdivision_name1       =[[ناحیه اژه|اژه]]
+| subdivision_type2       = 
+| subdivision_name2       = 
+| subdivision_type3       = 
+| subdivision_name3       = 
+| established_title       = 
+| established_date        = 
+| founder                 = 
+| seat_type               = [[فهرست شهرهای ترکیه|مرکز]]
+| seat                    = [[مانیسا]]
+| government_footnotes    = 
+| leader_party            = 
+| leader_title            =  فرماندار
+| leader_name             = Halil İbrahim Daşköz
+| unit_pref               = Metric&lt;!-- or US or UK --&gt;
+| area_footnotes          = 
+| area_total_km2          = ۱۳٬۸۱۰
+| area_land_km2           = 
+| area_water_km2          = 
+| area_water_percent      = 
+| area_note               = 
+| elevation_footnotes     = 
+| elevation_m             = 
+| population_footnotes    = 
+| population_total        = ۱٬۳۷۹٬۴۸۴
+| population_as_of        = ۲۰۱۰
+| population_density_km2  = auto
+| population_demonym      = 
+| population_note         = 
+| timezone1               = 
+| utc_offset1             = 
+| timezone1_DST           = 
+| utc_offset1_DST         = 
+| postal_code_type        =  [[کد پستی]]
+| postal_code             = 
+| area_code_type          = 
+| area_code               =  ۰۲۳۶
+| iso_code                = TR-۴۵
+| registration_plate      = ۴۵
+| website                 = {{URL|http://www.manisa.gov.tr/}}
+| footnotes               = 
+}}
+
+'''مانیسا''' نام یکی از استان‌های [[ترکیه]] است که مرکز آن هم شهر [[مانیسا]] است.
+[[پرونده:Manisa Turkey Provinces locator.jpg|بندانگشتی|راست|محل استان مانیسا]]
+
+{{-}}
+{{داده‌های کتابخانه‌ای}}
+
+{{ترکیه-خرد}}
+
+== منابع ==
+{{پانویس}}
+{{ویکی‌انبار-رده|Manisa Province}}
+http://en.wikipedia.org/w/index.php?title=Manisa_Province&amp;oldid=436790263
+
+{{استان‌های ترکیه}}
+
+[[رده:استان مانیسا]]
+[[رده:استان‌های ترکیه|مانیسا]]
+[[رده:ناحیه اژه]]</text>
+      <sha1>1vsn4qikeqerl9yreo3nhmfkvychfqc</sha1>
+    </revision>
+  </page>
+  

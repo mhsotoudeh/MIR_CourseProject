@@ -1,0 +1,22 @@
+<page>
+    <title>دونالد کانوس</title>
+    <ns>0</ns>
+    <id>6995</id>
+    <redirect title="دانلد کنوت" />
+    <revision>
+      <id>283123</id>
+      <parentid>25565</parentid>
+      <timestamp>2006-09-04T07:45:49Z</timestamp>
+      <contributor>
+        <username>YurikBot</username>
+        <id>1340</id>
+      </contributor>
+      <minor />
+      <comment>Robot: Fixing double redirect</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">#REDIRECT [[دانلد کنوت]]</text>
+      <sha1>sgnwlj41xj27d4kd7vrt21yxoyqooea</sha1>
+    </revision>
+  </page>
+  

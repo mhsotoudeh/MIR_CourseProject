@@ -1,0 +1,21 @@
+<page>
+    <title>شهركرد</title>
+    <ns>0</ns>
+    <id>6517</id>
+    <redirect title="شهرکرد" />
+    <revision>
+      <id>25177</id>
+      <timestamp>2005-05-14T09:32:17Z</timestamp>
+      <contributor>
+        <username>Hamed~fawiki</username>
+        <id>6</id>
+      </contributor>
+      <comment>شهركرد به شهرکرد منتقل شد</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">#REDIRECT [[شهرکرد]]
+</text>
+      <sha1>s5s8ll6mwdxfl69eyre3pcoecvq3ouw</sha1>
+    </revision>
+  </page>
+  

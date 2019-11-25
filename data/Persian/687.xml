@@ -1,0 +1,24 @@
+<page>
+    <title>رده:نگهداری ویکی‌پدیا</title>
+    <ns>14</ns>
+    <id>4856</id>
+    <revision>
+      <id>16149520</id>
+      <parentid>9580892</parentid>
+      <timestamp>2015-11-05T17:56:33Z</timestamp>
+      <contributor>
+        <username>DbBot</username>
+        <id>264911</id>
+      </contributor>
+      <minor />
+      <comment>[[ویکی‌پدیا:سیاست ربات‌رانی/درخواست مجوز/DbBot/وظیفه ۱۴|ربات]]: افزودن [[الگو:رده ویکی‌پدیا]] همسنگ</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">{{رده ویکی‌پدیا}}
+{{انبار-رده|Wikipedia}}
+
+[[رده:مدیریت ویکی‌پدیا]]</text>
+      <sha1>dzo6y7wo0f4j4up0notww3dji0d4wbs</sha1>
+    </revision>
+  </page>
+  

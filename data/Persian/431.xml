@@ -1,0 +1,145 @@
+<page>
+    <title>استان موغله</title>
+    <ns>0</ns>
+    <id>4228</id>
+    <revision>
+      <id>15716922</id>
+      <parentid>15570027</parentid>
+      <timestamp>2015-08-10T06:58:41Z</timestamp>
+      <contributor>
+        <username>Ahmadrizo</username>
+        <id>417537</id>
+      </contributor>
+      <comment>/* شهرستان ها */اصلاح اشتباه نگارشی</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">{{Infobox settlement
+&lt;!-- See Template:Infobox settlement for additional fields and descriptions --&gt;
+| name                    = استان موغله
+| native_name             = Muğla ili 
+| native_name_lang        = &lt;!-- ISO 639-2 code e.g. "fr" for French. If more than one, use {{lang}} instead --&gt;
+| settlement_type         =  [[فهرست استان‌های ترکیه|استان]]
+| image_skyline           = 
+| image_alt               = 
+| image_caption           = 
+| image_flag              = 
+| flag_alt                = 
+| image_seal              = 
+| seal_alt                = 
+| image_shield            = 
+| shield_alt              = 
+| nickname                = 
+| motto                   = 
+| image_map               =
+| map_alt                 = 
+| map_caption             = 
+| image_map1              =Muğla districts.png 
+| mapsize1                =
+| map_alt1                =
+| map_caption1            = 
+| pushpin_map             = 
+| pushpin_label_position  = 
+| pushpin_map_alt         = 
+| pushpin_map_caption     = 
+| latd  = 37 |latm  = 01 |lats  = 49 |latNS  = N
+| longd = 28 |longm = 30 |longs = 23 |longEW = E
+| coor_pinpoint           = 
+| coordinates_type        = 
+| coordinates_display     = inline,title
+| coordinates_footnotes   = 
+| subdivision_type        = [[فهرست کشورهای جهان|کشور]]
+| subdivision_name        = {{TUR}}
+| subdivision_type1       = ناحیه
+| subdivision_name1       =[[ناحیه اژه|اژه]]
+| subdivision_type2       = 
+| subdivision_name2       = 
+| subdivision_type3       = 
+| subdivision_name3       = 
+| established_title       = 
+| established_date        = 
+| founder                 = 
+| seat_type               = [[فهرست شهرهای ترکیه|مرکز]]
+| seat                    = [[موغله]]
+| government_footnotes    = 
+| leader_party            = 
+| leader_title            =  فرماندار 
+| leader_name             = Fatih Şahin
+| unit_pref               = Metric&lt;!-- or US or UK --&gt;
+| area_footnotes          = 
+| area_total_km2          = 13,338 
+| area_land_km2           = 
+| area_water_km2          = 
+| area_water_percent      = 
+| area_note               = 
+| elevation_footnotes     = 
+| elevation_m             = 
+| population_footnotes    = 
+| population_total        = 817,503
+| population_as_of        = ۲۰۱۰
+| population_density_km2  = auto
+| population_demonym      = 
+| population_note         = 
+| timezone1               = 
+| utc_offset1             = 
+| timezone1_DST           = 
+| utc_offset1_DST         = 
+| postal_code_type        =  [[کد پستی]]
+| postal_code             = 
+| area_code_type          = 
+| area_code               =  ۰۲۵۲ 
+| iso_code                = TR-48
+| registration_plate      = ۴۸ 
+| website                 = {{URL|http://www.muğla.gov.tr/}} 
+| footnotes               = 
+}}
+
+'''موغله''' نام یکی از استان‌های [[ترکیه]] است که مرکز آن هم شهری است به همین نام.
+
+این استان در منطقه اژه واقع شده است 
+
+== شهرستان ها ==
+
+شامل 12 شهرستان به نام های زیر میباشد:
+*1- موغله (مرکز)
+*2- بُدروم
+*3- مارماریس
+*4- دالامان
+*5- فتحیه
+*6- اُرتاجا
+*7- میلاس
+*8- یاتاغان
+*9- اولاً
+*10- کاواکلی دره
+*11- کوی جئیز
+*12- داتچا
+
+[[پرونده:Muğla Turkey Provinces locator.jpg|بندانگشتی|راست|270px|استان موغله.]]
+{{-}}
+
+== منابع ==
+{{پانویس}}
+{{ویکی‌انبار-رده|Muğla Province}}
+* {{یادکرد-ویکی
+|پیوند=http://en.wikipedia.org/w/index.php?title=Muğla_Province&amp;oldid=436790782
+|عنوان=Muğla Province
+|زبان=انگلیسی
+|بازیابی=۲۸ ژانویه ۲۰۱۴}}
+* {{یادکرد-ویکی
+|پیوند=http://tr.wikipedia.org/wiki/Mu%C4%9Fla_%28il%29
+|عنوان=Muğla (il)
+|زبان=ترکی
+|بازیابی=۲۸ ژانویه ۲۰۱۴}}
+
+{{استان‌های ترکیه}}
+{{جزیره‌های ترکیه}}
+{{داده‌های کتابخانه‌ای}}
+
+{{ترکیه-خرد}}
+
+[[رده:استان موغله]]
+[[رده:استان‌های ترکیه|موغله]]
+[[رده:ناحیه اژه]]</text>
+      <sha1>2x81df35ylzoj4djgt7305qnjdz51ul</sha1>
+    </revision>
+  </page>
+  

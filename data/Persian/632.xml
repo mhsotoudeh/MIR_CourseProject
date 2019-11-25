@@ -1,0 +1,32 @@
+<page>
+    <title>الگو:کشورهای جنوب آسیا</title>
+    <ns>10</ns>
+    <id>4687</id>
+    <revision>
+      <id>17613068</id>
+      <parentid>6744146</parentid>
+      <timestamp>2016-07-14T21:46:50Z</timestamp>
+      <contributor>
+        <username>Saeidpourbabak</username>
+        <id>111931</id>
+      </contributor>
+      <comment>اصلاح پیوند(ها) به صفحهٔ ابهام‌زدایی</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">{{Navbox
+|title = [[آسیای جنوبی|کشورهای جنوب آسیا]]
+|name = کشورهای جنوب آسیا
+|bodyclass=hlist
+|list1 = 
+*[[پاکستان]]
+* [[بنگلادش]]
+* [[بوتان (کشور)|بوتان]]
+* [[سری‌لانکا|سری لانکا]]
+* [[مالدیو]]
+* [[نپال]]
+* [[هند]] 
+}}</text>
+      <sha1>9wsky3q0cqfuhlj91wbxsgnji7qvdkc</sha1>
+    </revision>
+  </page>
+  

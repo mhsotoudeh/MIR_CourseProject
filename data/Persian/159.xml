@@ -1,0 +1,20 @@
+<page>
+    <title>مدیاویکی:Sitesupport-url</title>
+    <ns>8</ns>
+    <id>3576</id>
+    <revision>
+      <id>9284545</id>
+      <parentid>8013085</parentid>
+      <timestamp>2013-02-07T01:52:27Z</timestamp>
+      <contributor>
+        <username>Pgehres (WMF)</username>
+        <id>241047</id>
+      </contributor>
+      <comment>Updating sidebar link to use subst:CONTENTLANGUAGE</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_fa.wikipedia.org&amp;uselang=fa</text>
+      <sha1>jt5ytf2ze2u5615dox5r0oj421rva2z</sha1>
+    </revision>
+  </page>
+  

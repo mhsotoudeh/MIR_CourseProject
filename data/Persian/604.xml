@@ -1,0 +1,272 @@
+<page>
+    <title>اورانوس</title>
+    <ns>0</ns>
+    <id>4627</id>
+    <revision>
+      <id>18111509</id>
+      <parentid>17870450</parentid>
+      <timestamp>2016-09-17T08:02:48Z</timestamp>
+      <contributor>
+        <username>Babaksaeidpour</username>
+        <id>477903</id>
+      </contributor>
+      <comment>/* وجه تسمیه */اصلاح پیوند(ها) به صفحهٔ ابهام‌زدایی ([[یونانی]])  با استفاده از [[Project:AutoWikiBrowser|AWB]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">{{کاربردهای دیگر}}
+{{جعبه سیاره
+| bgcolour = #c0ffff
+| نام = اورانوس{{سخ}}Uranus
+| نماد = [[پرونده:Uranus symbol.svg|25px|Astronomical symbol of Uranus]]
+| تصویر = [[پرونده:Uranus2.jpg|240px|Uranus as seen by Voyager 2]]
+| زیرنویس=اورانوس از دید [[ویجر ۲]]
+| discovery = yes
+| کاشف = [[ویلیام هرشل]]
+| تاریخ_کشف = ۱۳ مارس ۱۷۸۱
+| orbit_ref =&lt;ref name=horizons&gt;{{یادکرد|فصل=|کتاب=|ناشر= |چاپ= |شهر= |کوشش= |ویرایش= |سال=|شابک=|نویسنده=Yeomans, {{چر}}Donald K. |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه= |زبان=en |مقاله= [http://ssd.jpl.nasa.gov/?horizons HORIZONS System]   |ژورنال= |نشریه=NASA JPL |تاریخ=July 13, 2006  |دوره= |شماره= |شاپا=}} Retrieved on 2007-08-08.  — At the site, go to the "web interface" then select "Ephemeris Type: ELEMENTS", "Target Body: Uranus Barycenter" and "Center: Sun".&lt;/ref&gt;{{Ref_label|A|a|none}}
+| مبدأ = [[J۲۰۰۰]]
+| اوج = ۳٬۰۰۴٬۴۱۹٬۷۰۴&amp;nbsp;[[کیلومتر|km]]{{سخ}}۲۰٫۰۸۳&amp;nbsp;۳۰۵&amp;nbsp;۲۶&amp;nbsp;{{چر}}[[واحد نجومی|AU]]{{رچ}}
+| حضیض = ۲٬۷۴۸٬۹۳۸٬۴۶۱&amp;nbsp;km{{سخ}}۱۸٫۳۷۵&amp;nbsp;۵۱۸&amp;nbsp;63 AU
+| نیم‌قطر بزرگ = ۲٬۸۷۶٬۶۷۹٬۰۸۲&amp;nbsp;کیلومتر{{سخ}}۱۹٫۲۲۹&amp;nbsp;۴۱۱&amp;nbsp;۹۵ {{چر}}AU{{رچ}}
+| خروج از مرکز= ۰٫۰۴۴&amp;nbsp;۴۰۵&amp;nbsp;۵۸۶
+| تناوب = ۳۰٬۷۹۹٫۰۹۵&amp;nbsp;[[روز]]{{سخ}}۸۴٫۳۲۳&amp;nbsp;۳۲۶ {{چر}}[[سال|yr]]{{رچ}}
+| میانگین سرعت = ۶٫۸۱&amp;nbsp;{{چر}}km/s&lt;ref name="fact"&gt;{{یادکرد|فصل=|کتاب=|ناشر= |چاپ= |شهر= |کوشش= |ویرایش= |سال=|شابک=|نویسنده=Williams, {{چر}}Dr. David R. |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه= |زبان=en |مقاله= [http://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html Uranus Fact Sheet]   |ژورنال= |نشریه=NASA |تاریخ=January 31, 2005  |دوره= |شماره= |شاپا=}} Retrieved on 2007-08-10.&lt;/ref&gt;{{رچ}}
+| انحراف = ۰٫۷۷۲&amp;nbsp;۵۵۶° نسبت به [[دائرةالبروج]]{{سخ}}۶٫۴۸° نسبت به استوای [[خورشید]]{{سخ}}۱٫۰۲° نسبت به [[Invariable plane]]&lt;ref name=meanplane&gt;{{یادکرد|فصل=|کتاب=|ناشر= |چاپ= |شهر= |کوشش= |ویرایش= |سال=|شابک=|نویسنده= |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه= |زبان=en |مقاله= [http://home.comcast.net/~kpheider/MeanPlane.gif The MeanPlane (Invariable plane) of the Solar System passing through the barycenter]   |ژورنال= |نشریه= |تاریخ=2009-04-03  |دوره= |شماره= |شاپا=}} Retrieved on 2009-04-10.  (produced with [http://chemistry.unina.it/~alvitagl/solex/ Solex 10] written by Aldo Vitagliano; see also [[Invariable plane]])&lt;/ref&gt;
+| asc_node = ۷۳٫۹۸۹&amp;nbsp;۸۲۱°
+| arg_peri = ۹۶٫۵۴۱&amp;nbsp;۳۱۸°
+| آنومالی متوسط = ۱۴۲٫۹۵۵&amp;nbsp;۷۱۷°
+| قمرها = [[قمرهای طبیعی اورانوس|۲۷]]
+| physical_characteristics = yes
+| پختگی = ۰٫۰۲۲&amp;nbsp;۹&amp;nbsp;±&amp;nbsp;۰٫۰۰۰&amp;nbsp;8{{Ref_label|B|b|none}}
+| شعاع استوایی = ۲۵٬۵۵۹&amp;nbsp;±&amp;nbsp;۴&amp;nbsp;km{{سخ}}۴٫۰۰۷&amp;nbsp;برابر زمین&lt;ref name=Seidelmann2007&gt;{{یادکرد|فصل=|کتاب=|ناشر= |چاپ= |شهر= |کوشش= |ویرایش= |سال=|شابک=|نویسنده=Seidelmann, {{چر}}P. Kenneth |نویسندگان سایر بخش‌ها=Archinal, B. A. ; A’hearn, M. F. ; et.al.|ترجمه=|صفحه=155–180 |زبان=en |مقاله= [http://adsabs.harvard.edu/doi/10.1007/s10569-007-9072-y Report of the IAU/IAGWorking Group on cartographic coordinates and rotational elements: 2006] |ژورنال= Celestial Mech. Dyn. Astr. |نشریه=|تاریخ= 2007 |دوره=90 |شماره= |شاپا= [[نشانگر دیجیتالی شیء|doi]]: &lt;span class="neverexpand"&gt; [http://dx.doi.org/%7B%7Burlencode:10.1007/s10569-007-9072-y}} &lt;nowiki&gt;10.1007/s10569-007-9072-y&lt;/nowiki&gt;]&lt;/span&gt;}}&lt;/ref&gt;{{Ref_label|C|c|none}}
+| شعاع قطبی = ۲۴٬۹۷۳&amp;nbsp;±&amp;nbsp;۲۰&amp;nbsp;km{{سخ}}۳٫۹۲۹&amp;nbsp;برابر زمین&lt;ref name=Seidelmann2007/&gt;{{Ref_label|C|c|none}}
+| مساحت سطح = ۸٫۱۱۵&amp;nbsp;6{{e|۹}}&amp;nbsp;km²&lt;ref name="nasafact"&gt;{{یادکرد|فصل=|کتاب=|ناشر= |چاپ= |شهر= |کوشش= |ویرایش= |سال=|شابک=|نویسنده=Munsell, {{چر}}Kirk |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه= |زبان=en |مقاله= [http://solarsystem.nasa.gov/planets/profile.cfm?Object=Uranus&amp;Display=Facts NASA: Solar System Exploration: Planets: Uranus: Facts &amp; Figures]   |ژورنال= |نشریه=NASA |تاریخ=14 مه، 2007  |دوره= |شماره= |شاپا=}} Retrieved on 2007-08-13.&lt;/ref&gt;{{Ref_label|C|c|none}}{{سخ}}۱۵٫۹۱&amp;nbsp;برابر زمین
+| حجم = ۶٫۸۳۳{{e|۱۳}}&amp;nbsp;km³&lt;ref name="fact"/&gt;{{Ref_label|C|c|none}}{{سخ}}۶۳٫۰۸۶&amp;nbsp;Earths
+| جرم = {{nowrap|(۸٫۶۸۱۰ ± ۰٫۰۰۱۳){{e|۲۵}} [[کیلوگرم|kg]]}}{{سخ}}۱۴٫۵۳۶&amp;nbsp;برابر زمین&lt;ref name=Jacobson1992&gt;{{یادکرد|فصل=|کتاب=|ناشر= |چاپ= |شهر= |کوشش= |ویرایش= |سال=|شابک=|نویسنده=Jacobson, {{چر}}R.A. |نویسندگان سایر بخش‌ها=Campbell, J.K. ; Taylor, A.H. ; Synnott, S.P.|ترجمه=|صفحه=2068–2078 |زبان=en |مقاله= [http://adsabs.harvard.edu/abs/1992AJ....103.2068J The masses of Uranus and its major satellites from Voyager tracking data and Earth-based Uranian satellite data] |ژورنال= The Astronomical Journal |نشریه=|تاریخ= 1992 |دوره=103 |شماره= 6 |شاپا= [[نشانگر دیجیتالی شیء|doi]]: &lt;span class="neverexpand"&gt; [http://dx.doi.org/%7B%7Burlencode:10.1086/116211}} &lt;nowiki&gt;10.1086/116211&lt;/nowiki&gt;]&lt;/span&gt;}}&lt;/ref&gt;{{سخ}}[[standard gravitational parameter|GM]]=۵&amp;nbsp;۷۹۳&amp;nbsp;۹۳۹&amp;nbsp;±&amp;nbsp;۱۳&amp;nbsp;km³/s²
+| چگالی = ۱٫۲۷&amp;nbsp;g/cm³&lt;ref name=fact/&gt;{{Ref_label|C|c|none}}
+| گرانش سطحی = ۸٫۶۹&amp;nbsp;[[شتاب|m/s²]]&lt;ref name=fact/&gt;{{Ref_label|C|c|none}}{{سخ}}۰٫۸۸۶&amp;nbsp;[[شتاب گرانشی|g]]
+| سرعت فرار = ۲۱٫۳&amp;nbsp;km/s&lt;ref name=fact/&gt;{{Ref_label|C|c|none}}
+| sidereal_day = [[حرکت رجوعی|−]]۰٫۷۱۸&amp;nbsp;33 day{{سخ}}{{nowrap|۱۷ [[ساعت|h]] ۱۴ [[دقیقه|min]] ۲۴ [[ثانیه|s]]}}&lt;ref name=Seidelmann2007/&gt;
+| سرعت چرخش استوایی= ۲٫۵۹&amp;nbsp;km/s{{سخ}}۹٬۳۲۰&amp;nbsp;km/h
+| axial_tilt = ۹۷٫۷۷°&lt;ref name=Seidelmann2007/&gt;
+|بعد قطب شمال= {{nowrap|۱۷ h 9 min 15 s}}{{سخ}}۲۵۷٫۳۱۱°&lt;ref name=Seidelmann2007/&gt;
+| میل = −۱۵٫۱۷۵°&lt;ref name=Seidelmann2007/&gt;
+| آلبدو= ۰٫۳۰۰ ([[Bond albedo|bond]]){{سخ}}
+۰٫۵۱ ([[Geometric albedo|geom.]])&lt;ref name="fact"/&gt;
+| قدر = ۵٫۹&lt;ref name=ephemeris&gt;{{یادکرد|فصل=|کتاب=|ناشر= |چاپ= |شهر= |کوشش= |ویرایش= NASA |سال=|شابک=|نویسنده= Fred Espenak|نویسندگان سایر بخش‌ها=|ترجمه=|صفحه= |زبان=en |مقاله= [http://sunearth.gsfc.nasa.gov/eclipse/TYPE/TYPE.html Twelve Year Planetary Ephemeris: 1995 - 2006]   |ژورنال= |نشریه= |تاریخ= 2005 |دوره= |شماره= |شاپا=}} Retrieved on 2007-06-14.&lt;/ref&gt; تا ۵٫۳۲&lt;ref name="fact"/&gt;
+| قطر زاویه‌ای = ۳٫۳"–۴٫۱"&lt;ref name="fact"/&gt;
+| temperatures = yes
+| temp_name1 = ۱&amp;nbsp;[[بار (واحد)|بار]] مرحله&lt;ref name=Podolak1995&gt;{{یادکرد|فصل=|کتاب=|ناشر= |چاپ= |شهر= |کوشش= |ویرایش= |سال=|شابک=|نویسنده=Podolak, {{چر}}M. |نویسندگان سایر بخش‌ها=Weizman, A. ; Marley, M.|ترجمه=|صفحه=1517–1522 |زبان=en |مقاله= [http://adsabs.harvard.edu/abs/1995P&amp;SS...43.1517P Comparative models of Uranus and Neptune] |ژورنال= Planet. Space Sci. |نشریه=|تاریخ= 1995 |دوره=43 |شماره= 12 |شاپا= [[نشانگر دیجیتالی شیء|doi]]: &lt;span class="neverexpand"&gt; [http://dx.doi.org/%7B%7Burlencode:10.1016/0032-0633(95)00061-5}} &lt;nowiki&gt;10.1016/0032-0633(95)00061-5&lt;/nowiki&gt;]&lt;/span&gt;}}&lt;/ref&gt;
+| min_temp_1 =
+| mean_temp_1 = ۷۶&amp;nbsp;[[کلوین|K]]
+| max_temp_1 =
+| temp_name2 = ۰٫۱&amp;nbsp;bar{{سخ}}([[تروپوسفر]])&lt;ref name=Lunine1993&gt;{{یادکرد|فصل=|کتاب=|ناشر= |چاپ= |شهر= |کوشش= |ویرایش= |سال=|شابک=|نویسنده=Lunine, {{چر}}Jonathan. I. |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه=217–263 |زبان=en |مقاله= [http://adsabs.harvard.edu/abs/1993ARA&amp;A..31..217L The Atmospheres of Uranus and Neptune] |ژورنال= Annual Review of Astronomy and Astrophysics |نشریه=|تاریخ= 1993 |دوره=31 |شماره= |شاپا= [[نشانگر دیجیتالی شیء|doi]]: &lt;span class="neverexpand"&gt; [http://dx.doi.org/%7B%7Burlencode:10.1146/annurev.aa.31.090193.001245}} &lt;nowiki&gt;10.1146/annurev.aa.31.090193.001245&lt;/nowiki&gt;]&lt;/span&gt;}}&lt;/ref&gt;
+| min_temp_2 = ۴۹&amp;nbsp;K
+| mean_temp_2 = ۵۳&amp;nbsp;K
+| max_temp_2 = ۵۷&amp;nbsp;K
+| atmosphere = yes
+| atmosphere_ref =&lt;ref name=Lunine1993/&gt;{{Ref_label|D|d|none}}
+| scale_height = ۲۷٫۷&amp;nbsp;km&lt;ref name="fact"/&gt;
+| ترکیب جو = ''(زیر ۱٫۳&amp;nbsp;بار)''
+
+{|
+|----
+|
+۸۳&amp;nbsp;±&amp;nbsp;۳٪
+| [[هیدروژن]] (H&lt;sub&gt;۲&lt;/sub&gt;)
+|----
+|
+۱۵&amp;nbsp;±&amp;nbsp;۳٪
+| [[هلیوم]]
+|----
+|
+۲٫۳٪
+| [[متان]]
+|----
+|
+۰٫۰۰۹٪{{سخ}}(۰٫۰۰۷–۰٫۰۱۵٪)
+| [[هیدروژن دوترید]]&amp;nbsp;(HD)&lt;ref name="Feuchtgruber1999"&gt;{{یادکرد|فصل=|کتاب=|ناشر= |چاپ= |شهر= |کوشش= |ویرایش= |سال=|شابک=|نویسنده=Feuchtgruber, {{چر}}H. |نویسندگان سایر بخش‌ها=Lellouch, E. ; B. Bezard; et.al.|ترجمه=|صفحه=L17–L21 |زبان=en |مقاله= [http://adsabs.harvard.edu/abs/1999A&amp;A...341L..17F Detection of HD in the atmospheres of Uranus and Neptune: a new determination of the D/H ratio] |ژورنال= Astronomy and Astrophysics |نشریه=|تاریخ= 1999 |دوره=341 |شماره= |شاپا=}}&lt;/ref&gt;
+|----
+|
+'''یخ‌ها''':
+|
+|----
+|
+ || [[آمونیاک]]
+|----
+|
+ || [[آب (ملوکول)|آب]]
+|----
+|
+| [[آمونیوم هیدروسولفید]]&amp;nbsp;(NH&lt;sub&gt;۴&lt;/sub&gt;SH)
+|----
+|
+ || [[متان]]&amp;nbsp;(CH&lt;sub&gt;۴&lt;/sub&gt;)
+|}
+|جو=بله
+}}
+
+'''اورانوس'''({{صدا|En-us-Uranus(2).oga|/ˈjʊərənəs/}} یا {{صدا|en-us-Uranus.ogg|/jʊˈreɪnəs/}}&lt;ref&gt;{{یادکرد|فصل= Uranus |کتاب=Oxford English Dictionary|ناشر= |چاپ= |شهر= |کوشش= |ویرایش= Second edition |سال= 1989 |شابک= |نویسنده= |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه= |زبان=en |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}}&lt;/ref&gt;) (در [[اسطوره‌های یونان]] οὐρανός، خدای آسمان و معادل پارسی سره آن '''آهوره'''&lt;ref&gt;
+[http://cgie.org.ir/shavad.asp?id=123&amp;avaid=178 دائرةالمعارف بزرگ اسلامی]&lt;/ref&gt;) هفتمین [[سیاره]] از نظر نزدیکی به [[خورشید]]&lt;ref&gt;{{یادکرد|فصل=|کتاب=|ناشر= |چاپ= |شهر= |کوشش= |ویرایش= |سال=|شابک=|نویسنده=دهخدا, {{چر}}علی‌اکبر |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه= |زبان=fa |مقاله= [http://www.loghatnaameh.com/dehkhodaworddetail-1f54462dc0924223a4ac973eb651a24c-fa.html اورانوس] (فارسی)  |ژورنال= |نشریه= |تاریخ=  |دوره= |شماره= |شاپا=}} بازیابی‌شده در تاریخ 21-04-2009.}}&lt;/ref&gt; وچهارمین سیاره از نظر اندازه و سومین سیاره از نظر جرم در [[منظومه شمسی]] است. اورانوس هر ۸۴ سال و ۷ روز یک بار به دور خورشید می‌گردد. همچنین هر ۱۰ ساعت و ۴۸ دقیقه یک دور به دور خودش می‌چرخد. اورانوس دارای ۵ [[قمر|ماه]] به نام‌های میراندا، آریل، آمبریل، تیتانیا و ابرون است. این سیاره را [[ویلیام هرشل]] در سال ۱۷۸۱ میلادی کشف کرد.&lt;ref name=pat1&gt;{{یادکرد|فصل= |کتاب=اطلس منظومه خورشیدی&lt;/ref&gt;
+
+اورانوس یکی از سیارات هشتگانه منظومه شمسی که از لحاظ بعد فاصله اش نسبت به خورشید در ردیف هفتم پس از زحل قرار گرفته‌است. فاصله متوسط این سیاره تا خورشید۲٬۸۶۹٬۶۰۰٬۰۰۰ کیلومتر&lt;ref name=pat1/&gt; و۶۳ بار از کره زمین بزرگ‌تر است. اورانوس ۲۷ ماه طبیعی دارد. این سیاره با چشم غیرمسلح دیده می‌شود.&lt;ref&gt;{{یادکرد|فصل= |کتاب=فضای بیرون، فضای درون|ناشر= انتشارات مدرسه|چاپ= |شهر= |کوشش=  |ویرایش= |سال=پاییز ۱۳۷۹}}  |شابک= |نویسنده=جولاندز، {{چر}}دیوید |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه=۱۶ |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}}&lt;/ref&gt; محور حرکت وضعی این سیاره کاملاً با مدار حرکت انتقالیش منطبق است. سفرهای اکتشافی به این سیاره کمتر از ده مأموریت بوده&lt;ref name=linda&gt;{{یادکرد|فصل= |کتاب=Asteroids, Meteorites, and Comets &lt;!-- ارجاع دست اول است --&gt;&lt;/ref&gt; که شاخصترینش مأموریت [[ویجر ۲]] بود که این فضاپیما در ژانویه [[۱۹۸۶ (میلادی)|۱۹۸۶]] به آن رسید.&lt;ref&gt;{{یادکرد|فصل= سفرهای اکتشافی|کتاب={{جا:#if:|[ اسرار کائنات]|اسرار کائنات}}|ناشر= به‌نگار|چاپ= |شهر= |کوشش= {{جا:#if:|, {{چر}}}} |ویرایش= |سال=1385}} {{جا:#if:|, {{چر}}}} |شابک={{جا:#if: |ISBN   |نویسنده=ویکتوری{{جا:#if:ابراهیم|، {{چر}}ابراهیم}} |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه=118-119 |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} {{جا:#if:|Retrieved on .}}&lt;/ref&gt;
+
+== تاریخچه ==
+=== افسانه‌شناسی ===
+{{اصلی|اورانوس (اسطوره)}}
+[[پرونده:Fotothek df tg 0000641 Astronomie ^ Forschung.jpg|راست|بندانگشتی|200px|[[اورانوس (اسطوره)|اورانوس]] کشیده شده توسط [[تیکو براهه]]]]
+[[اورانوس (اسطوره)|اورانوس]] نام یکی از اسطوره‌های یونانی است که تجسم آسمان (و بهشت&lt;ref name="Myth"&gt;{{cite book|last=Daly|first=Kathleen|title=Greek and Roman Mythology A to Z|publisher=Facts on File|date=2004|pages=130|isbn=978-0-8160-5155-7|language=English}}&lt;/ref&gt;) محسوب شده و پدربزرگ [[زئوس]] و پدر [[کرونوس]] می‌باشد. وی با [[گایا]] (تجسم زمین و مادر اورانوس&lt;ref name="Myth"/&gt;) همبستر شد و فرزندان متعددی از وی به دنیا آورد گایا که از این موضوع خسته شده‌بود از کرونوس (یکی از فرزندان) کمک خواست و وی آلت تناسلی اورانوس را با داس برید و به دریا افکند بنابر افسانه‌ای که بین تاریخ‌شناسان مورد اختلاف است آفرودیته الهه عشق از عطری (یا خون&lt;ref name="Myth"/&gt;) به وجود آمده است که هنگام افکنده شدن آلت تناسلی اورانوس به دریا، بلند شد.&lt;ref&gt;{{cite book|last=برن|first=لوسیا|coauthors=عباس مخبر (مترجم)|title=اسطوره‌های یونانی|publisher=نشر مرکز|date=۱۳۸۶|series=اسطوره‌های ملل|pages=۱۵،۱۷|isbn=978-964-305-119-8|language=فارسی}}&lt;/ref&gt;
+
+=== کشف ===
+این سیاره قبل از کشف به صورت یک ستاره در کاتالوگ [[جان فلاستمد]] در سال ۱۶۹۰ به عنوان ستاره «۳۴ [[گاو (صورت فلکی)|ثور]]» ثبت شده بود. . اخترشناس فرانسوی [[پیر لمونیر]] این سیاره را بین ۱۷۵۰ تا ۱۷۶۹ دوازده بار (با در نظر گرفتن ۴ شب متوالی) رصد کرده بود.&lt;ref&gt;{{cite web|title=Uranus—About Saying, Finding, and Describing It|publisher=Astronomy Briefly |url=http://www.thespaceguy.com/Uranus.htm|last=Dunkerson |first=Duane |publisher=thespaceguy.com |accessdate=2007-04-17}}&lt;/ref&gt;
+
+ولی توسط [[ویلیام هرشل]] و در خانه‌اش (اکنون موزه اخترشناسی) در شهر [[بث]]، [[سامرست]] و در ۱۳ مارس [[۱۷۸۱ (میلادی)|۱۷۸۱]] رصد شد،&lt;ref&gt;{{cite web|title=Bath Preservation Trust|url=http://www.bath-preservation-trust.org.uk/|accessdate=2007-09-29}}&lt;/ref&gt; و در ۲۶ آوریل ۱۷۸۱ به عنوان [[دنباله‌دار]] گزارش شد.&lt;ref&gt;{{cite journal|title=Account of a Comet, By Mr. Herschel, F. R. S. ; Communicated by Dr. Watson, Jun. of Bath, F. R. S|author=William Herschel|journal=Philosophical Transactions of the Royal Society of London|volume=71|pages=492–501|url=http://adsabs.harvard.edu/abs/1781RSPT...71..492H|doi=10.1098/rstl.1781.0056|year=1781|last2=Watson|first2=Dr.}}&lt;/ref&gt; هرشل آن را به عنوان جرمی که در برابر ستارگان اختلاف منظر دارد گزارش داد،&lt;ref&gt;Journal of the Royal Society and Royal Astronomical Society 1, 30, quoted in Miner, p. 8&lt;/ref&gt; u
+
+او اینگونه در ژورنال نگاشت «در نزدیکی [[زتا گاو|زتا ثور]] … یا یک سحابی است یا یک دنباله‌دار».&lt;ref&gt;Royal Astronomical Society MSS W.2/1.2, 23; quoted in Miner p. 8&lt;/ref&gt; در ۱۷ مارس نگاشت «به دنبال سحابی یا دنباله‌دار به این نتیجه رسیدم که دنباله‌دار است زیرا جایش را تغییر می‌دهد».&lt;ref&gt;RAS MSS Herschel W.2/1.2, 24, quoted in Miner p. 8&lt;/ref&gt; و حتی هنگامی که این جرم را به عنوان کشف به [[انجمن سلطنتی]] گزارش می‌داد باز براین باور بود که دنباله‌دار است و این عقیده را داشت تا زمانی که به طور مطلق اثبات شد که اورانوس یک سیاره است.&lt;ref&gt;Journal of the Royal Society and Royal Astronomical Society 1, 30; quoted in Miner p. 8&lt;/ref&gt;
+
+[[پرونده:HerschelTelescope.jpg|راست|بندانگشتی|200px|تلسکوپی که ویلیام هرشل با آن اورانوس را کشف کرد واقع در [[موزه ویلیام هرشل]]، [[بث، سامرست|بث]]]]
+
+هرشل در ۲۳ آوریل به ستاره‌شناس سلطنتی [[نویل ماسکلین]] نگاشت: «من نمی‌دانم چه باید صدایشش کرد. شاید بتوان آن را به سیاره نامید.».&lt;ref&gt;RAS MSS Herschel W1/13.M, 14 quoted in Miner p. 8&lt;/ref&gt;
+
+&lt;!-- While Herschel continued to cautiously describe his new object as a comet, other astronomers had already begun to suspect otherwise. Russian astronomer [[Anders Johan Lexell]] was the first to compute the orbit of the new object&lt;ref name=lexell&gt;{{cite journal| year = 1783| author = A. J. Lexell |title = Recherches sur la nouvelle planete, decouverte par M. Herschel &amp; nominee Georgium Sidus| journal = Acta Academia Scientarum Imperialis Petropolitanae | issue = 1| pages = 303–329}}&lt;/ref&gt; and its nearly circular orbit led him to a conclusion that it was a planet rather than a comet. Berlin astronomer [[Johann Elert Bode]] described Herschel's discovery as "a moving star that can be deemed a hitherto unknown planet-like object circulating beyond the orbit of Saturn".&lt;ref&gt;Johann Elert Bode, Berliner Astronomisches Jahrbuch, p. 210, 1781, quoted in Miner p. 11&lt;/ref&gt; Bode concluded that its near-circular orbit was more like a planet than a comet.&lt;ref&gt;Miner p. 11&lt;/ref&gt;
+
+The object was soon universally accepted as a new planet. By 1783, Herschel himself acknowledged this fact to Royal Society president [[Joseph Banks]]: "By the observation of the most eminent Astronomers in Europe it appears that the new star, which I had the honour of pointing out to them in March 1781, is a Primary Planet of our Solar System."&lt;ref name=Dreyer&gt;{{cite book|author=[[J. L. E. Dreyer|Dreyer, J. L. E.]], |year=1912|title=The Scientific Papers of Sir William Herschel|publisher=Royal Society and Royal Astronomical Society|volume=1|pages=100|isbn=1843710226}}&lt;/ref&gt; In recognition of his achievement, [[George III of the United Kingdom|King George III]] gave Herschel an annual stipend of £200 on the condition that he move to Windsor so that the Royal Family could have a chance to look through his telescopes.&lt;ref name="Miner12"&gt;Miner p. 12&lt;/ref&gt;
+
+ --&gt;
+توسط [[ویلیام هرشل]] و در ۱۳ مارس ۱۷۸۱ به عنوان [[دنباله‌دار]] کشف شد و نام آن توسط [[جان بوده]] پیشنهاد گردید&lt;ref name="linda"/&gt;
+
+=== علائم اختصاری ===
+=== وجه تسمیه ===
+اورانوس واژه‌ایست [[زبان یونانی|یونانی]] به معنای ''آسمان''، و نیز خدایگان آسمان نیز در میان یونانیان به همین نام خوانده می‌شد. میان غربیان در بین سیارات هشتگانه اورانوس تنها سیاره‌ای است که نام خود را از افسانه‌های یونانی برگرفته‌است. (برخلاف سایرین که نامی برگرفته از افسانه‌های رومی دارند.&lt;ref name="Myth"/&gt;).
+&lt;!--&lt;ref&gt;
+[http://cgie.org.ir/shavad.asp?id=123&amp;avaid=178 دائرةالمعارف بزرگ اسلامی]&lt;/ref&gt; --&gt;
+
+== مدار و چرخش ==
+[[پرونده:Uranusandrings.jpg|بندانگشتی|تصویر [[تلسکوپ فضایی هابل|HST]] از اورانوس که شامل نوارهای ابر، حلقه‌ها و ماه‌هایش است.]]
+فاصله متوسط آن از خورشید ۳ میلیارد کیلومتر(۲۰ [[واحد نجومی]] است).&lt;ref name=astrosoc&gt;{{یادکرد|فصل=|کتاب=|ناشر= |چاپ= |شهر= |کوشش= |ویرایش= |سال=|شابک=|نویسنده={{جا:#if:|, {{چر}}}} |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه= |زبان=en |مقاله= [http://www.astrosociety.org/education/publications/tnl/04/04.html Next Stop Uranus] {{جا:#if:|()}} {{جا:#if:|()}} |ژورنال= |نشریه= |تاریخ= {{جا:#if:|, {{چر}}}}1986 |دوره= |شماره= |شاپا=}} {{جا:#if:2007-06-09|Retrieved on 2007-06-09.}} {{جا:#if:|Retrieved on , {{چر}}.}}&lt;/ref&gt; در مدار آن بی‌نظمی‌هایی دیده شده‌است&lt;ref&gt;{{یادکرد|فصل= |کتاب={{جا:#if:|[ Asteroids, Meteorites, and Comets]|Asteroids, Meteorites, and Comets}}|ناشر= Chelsea House|چاپ= |شهر= |کوشش= {{جا:#if:|, {{چر}}}} |ویرایش= |سال= {{جا:#if:|, {{چر}}}} |شابک={{جا:#if:ISBN 0-8160-5195-X|ISBN ISBN 0-8160-5195-X}} |نویسنده=Linda T. Elkins-Tanton.{{جا:#if:|, {{چر}}}} |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه=81 |زبان=en |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} {{جا:#if:|Retrieved on .}}&lt;!-- ارجاع دست اول است --&gt;&lt;/ref&gt; به علت اینکه کجی محور چرخش آن از ۹۰ درجه بیشتر و برابر ۹۸ درجه&lt;ref name=autogenerated1&gt;{{یادکرد|فصل= |کتاب={{جا:#if:|[ نجوم دینامیکی]|نجوم دینامیکی}}|ناشر= |چاپ= |شهر= |کوشش= {{جا:#if:|, {{چر}}}} |ویرایش= |سال= {{جا:#if:|, {{چر}}}} |شابک={{جا:#if:|ISBN}} |نویسنده=دیکسون{{جا:#if:رابرت تی.|، {{چر}}رابرت تی.}} |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه=268}} |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} {{جا:#if:|Retrieved on .}}&lt;/ref&gt;&lt;ref name=haft/&gt; یا دقیقتر '۹۷º54&lt;ref&gt;{{یادکرد|فصل= Jovian Planets and Their Satellites|کتاب={{جا:#if:|[ ]||ناشر= McGraw-Hill|چاپ= |شهر= |کوشش= {{جا:#if:|, {{چر}}}} |ویرایش= |سال= {{جا:#if:|, {{چر}}}} |شابک={{جا:#if:ISBN 0-07-136436-6|ISBN ISBN 0-07-136436-6}} |نویسنده=Palen{{جا:#if:Stacy E.|, {{چر}}Stacy E.}} |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه=78 |زبان=en |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} {{جا:#if:|Retrieved on .}}&lt;/ref&gt; است چرخش سیاره پادساعتگرد است.&lt;ref name=autogenerated1/&gt; نزدیک‌ترین فاصله آن به زمین ۲۷٬۲۰۰ میلیون کیلومتر است.&lt;ref name=enc/&gt;[[خروج از مرکز]] آن ۰٫۰۷۴۲ بوده که بسیار به دایره نزدیک است. به علت اینکه این سیاره ۹۸ درجه انحراف دارد در یک چهارم حرکت آن به دور خورشید یکی از قطب‌هایش به سمت زمین است و یک چهارم بعد استوایش و یک چهارم پس از آن قطب مخالف و در انتها دوباره استوایش به سمت زمین خواهد بود.&lt;ref&gt;{{یادکرد|فصل= |کتاب={{جا:#if:|[ نجوم و اخترفیزیک مقدماتی]|نجوم و اخترفیزیک مقدماتی|ناشر= |چاپ= |شهر= |کوشش= {{جا:#if:|, {{چر}}}} |ویرایش= |سال= {{جا:#if:|, {{چر}}}} |شابک={{جا:#if:|ISBN}} |نویسنده=زیلیک{{جا:#if:|، {{چر}}}} |نویسندگان سایر بخش‌ها=اسمیت|ترجمه=|صفحه=235-236}} |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} {{جا:#if:|Retrieved on .}}&lt;/ref&gt;&lt;ref&gt;{{یادکرد|فصل=|کتاب=|ناشر= |چاپ= |شهر= |کوشش= |ویرایش= |سال=|شابک=|نویسنده={{جا:#if:|, {{چر}}}} |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه= |زبان=fa |مقاله= [http://www.ngdir.ir/sitelinks/kids/html/star-mafahim_oranus_faslha.htm اعضای دور این اورانوس و فصلهای نهایی] {{جا:#if:فارسی|(فارسی) {{جا:#if:|()}} |ژورنال= |نشریه= |تاریخ= {{جا:#if:|, {{چر}}}} |دوره= |شماره= |شاپا=}} {{جا:#if:2009-04-25|بازیابی‌شده در تاریخ ۲۵-۰۴-۲۰۰۹ .}} {{جا:#if:|Retrieved on , {{چر}}.}}&lt;/ref&gt; نور خورشید در اورانوس ۱/۴۰۰ نور خورشید در زمین است&lt;ref name=astrosoc/&gt; حرکت آن به درو خورشید ۸۴٫۰۱ سال طول می‌کشد.&lt;ref name="dictio"&gt;{{cite book|last=جمع نویسندگان|title=Dictionary of Geophysics,Astrophysics and Astronomy|publisher=[[انتشارات سی‌آرسی|CRC]]|date=2001|pages=496|isbn=0-8493-2891-8|language=English}}&lt;/ref&gt;
+
+اولین بار عناصر مداری آن در سال ۱۷۸۳ توسط [[پیر سیمون لاپلاس]] محاسبه شد.&lt;ref name=georgeforbes&gt;{{یادکرد|فصل=|کتاب=|ناشر= |چاپ= |شهر= |کوشش= |ویرایش= |سال=|شابک=|نویسنده={{جا:#if:|, {{چر}}}} George Forbes|نویسندگان سایر بخش‌ها=|ترجمه=|صفحه= |زبان=en |مقاله= [http://www.vinnysa1store.com/historyofastronomy2.html#8 History of Astronomy] {{جا:#if:|()}} {{جا:#if:|()}} |ژورنال= |نشریه= |تاریخ= {{جا:#if:|, {{چر}}}}1909 |دوره= |شماره= |شاپا=}} {{جا:#if:2007-08-07|Retrieved on 2007-08-07.}} {{جا:#if:|Retrieved on , {{چر}}.}}&lt;/ref&gt; بی نظمی در مدار آن اولین بار توسط [[جان کاوچ آدامز|جان کوچ آدامز]] و در سال ۱۸۴۱ مطرح شد و او پیشنهاد داد که جاذبه سیاره‌ای کشف نشده بر آن تأثیر می‌گذارد. در سال ۱۸۴۵ [[اوربن لو وریه|اوربین له وریر]] مستقلاً شروع به پژوهش در زمینه مدار اورانوس پرداخت. در ۲۳ سپتامبر ۱۸۴۶ [[یوهان گوتفرید گاله|یوهان گوتفیلد گاله]] سیاره را کشف و نام [[نپتون]] را بر آن نهاد&lt;ref&gt;{{یادکرد|فصل=|کتاب=|ناشر= |چاپ= |شهر= |کوشش= |ویرایش= |سال=|شابک=|نویسنده={{جا:#if:|, {{چر}}}} J J O'Connor and E F Robertson|نویسندگان سایر بخش‌ها=|ترجمه=|صفحه= |زبان=en |مقاله= [http://www-groups.dcs.st-and.ac.uk/~history/HistTopics/Neptune_and_Pluto.html Mathematical discovery of planets] {{جا:#if:|()}} {{جا:#if:|()}} |ژورنال= |نشریه= |تاریخ= {{جا:#if:|, {{چر}}}}1996 |دوره= |شماره= |شاپا=}} {{جا:#if:2007-06-13|Retrieved on 2007-06-13.}} {{جا:#if:|Retrieved on , {{چر}}.}}&lt;/ref&gt;&lt;ref&gt;{{یادکرد|فصل=|کتاب=|ناشر= |چاپ= |شهر= |کوشش= |ویرایش= |سال=|شابک=|نویسنده=دهخدا{{جا:#if:علی اکبر|، {{چر}}علی اکبر}} |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه= |زبان=fa |مقاله= [http://www.loghatnaameh.com/dehkhodaworddetail-1f54462dc0924223a4ac973eb651a24c-fa.html اورانوس-لغت‌نامه دهخدا] {{جا:#if:فارسی|(فارسی)}} {{جا:#if:|()}} |ژورنال= |نشریه= |تاریخ= {{جا:#if:|, {{چر}}}} |دوره= |شماره= |شاپا=}} {{جا:#if:2009-04-25|بازیابی‌شده در تاریخ ۲۵-۰۴-۲۰۰۹ .}} {{جا:#if:|Retrieved on , {{چر}}.}}&lt;/ref&gt;
+
+=== کجی محور ===
+تنها [[ناهید (سیاره)|ناهید]] کجی محور بیشتری از اورانوس و برابر ۱۷۷ درجه دارد. اما علت این کجی احتمالاً برخورد جسمی به ابعاد زمین به این سیاره و در اوایل دوران زندگی‌اش بوده‌است.&lt;ref name=haft&gt;{{یادکرد|فصل=|کتاب=|ناشر= |چاپ= |شهر= |کوشش= |ویرایش= |سال=|شابک=|نویسنده={{جا:#if:|, {{چر}}}} |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه= |زبان=fa |مقاله= [http://www.haftaseman.ir/webdb/article.asp?id=848 دانشنامه ستاره‌شناسی] {{جا:#if:فارسی|(فارسی)}} {{جا:#if:|()}} |ژورنال= |نشریه=هفت آسمان |تاریخ= {{جا:#if:|, {{چر}}}} |دوره= |شماره= |شاپا=}} {{جا:#if:2009-04-25|بازیابی‌شده در تاریخ 25-04-2009}}.}} {{جا:#if:|Retrieved on , {{چر}}.}}&lt;/ref&gt;&lt;ref&gt;{{یادکرد|فصل= |کتاب={{جا:#if:|[ شگفتی‌های جهان]|شگفتی‌های جهان|ناشر= |چاپ= |شهر= |کوشش= {{جا:#if:|, {{چر}}}} |ویرایش= |سال= {{جا:#if:|, {{چر}}}} |شابک={{جا:#if:|ISBN}} |نویسنده=ویکتوری{{جا:#if:ابراهیم|، {{چر}}ابراهیم}} |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه=۱۸۰ |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} {{جا:#if:|Retrieved on .}}&lt;/ref&gt; البته کاندیدهای دیگری هم مطرح هستند مانند برخورد یک دسته بزرگ از [[دنباله‌دار|دنباله‌دارها]] در اوایل تشکیلش که این خود وجود یک اقیانوس بزرگ داخلی آن را نیز توجیه می‌کند.&lt;ref name="philip"&gt;{{cite book|last=جمع نویسندگان|title=Philip's Astronomy Encyclopedia|publisher=Philip's|date=2002|pages=421-423|isbn=0-540-07863-8|language=English}}&lt;/ref&gt;
+
+=== بینایی ===
+از سال ۱۹۹۵ تا ۲۰۰۶ [[قدر ظاهری]] اورانوس بین +۵٫۶ تا +۵٫۹ متغیر بوده است و در صورتی که در حالت ایده‌آل چشم غیرمسلح توانایی دیدن قدر ۶٫۵ را دارد*&lt;ref&gt;منابع مختلف مقدارهای متفاوتی برای کمترین مقدار قدر ظاهری برای چشم غیرمسلح ذکر کرده‌اند به طور مثال{{یادکرد|فصل= Explanatory Notes|کتاب={{جا:#if:|[ Observer's Sky Atlas]|Observer's Sky Atlas}}|ناشر= |چاپ= |شهر= |کوشش= {{جا:#if:|, {{چر}}}} |ویرایش= |سال= {{جا:#if:|, {{چر}}}} |شابک={{جا:#if:|ISBN}} |نویسنده={{جا:#if:|, {{چر}}}} |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه=10 |زبان=en |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} {{جا:#if:|Retrieved on .}} مقدار آن را ۶ نگاشته است اما در هر صورت با چشم غیرمسلح دیده می‌شود.&lt;/ref&gt;(این به این معنی است که می‌توان در شرایط ایده‌آل این سیاره را دید)&lt;ref name=ephemeris/&gt; اندازه زاویه‌ای این سیاره بین ۳٫۴ تا ۳٫۷ ثانیه قوسی متغیر است&lt;ref name=ephemeris/&gt; اما در حالت مقابله به ۳٫۶ ثانیه قوسی می‌رسد.&lt;ref&gt;{{یادکرد|فصل= |کتاب={{جا:#if:|[ نجوم و اخترفیزیک مقدماتی]|نجوم و اخترفیزیک مقدماتی}}|ناشر= |چاپ= |شهر= |کوشش= {{جا:#if:|, {{چر}}}} |ویرایش= |سال= {{جا:#if:|, {{چر}}}} |شابک={{جا:#if:|ISBN}} |نویسنده=زیلیک{{جا:#if:|, {{چر}}}} |نویسندگان سایر بخش‌ها=اسمیت|ترجمه=|صفحه=۲۳۵ |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} {{جا:#if:|Retrieved on .}}&lt;/ref&gt; در صورتی که اندازه زاویه‌ای [[زحل]] ۱۶ تا ۲۰ ثانیه قوسی و [[مشتری (سیاره)|مشتری]] بین ۳۲ تا ۴۵ ثانیه قوسی است.&lt;ref name=ephemeris/&gt;
+
+== ساختار درونی ==
+[[پرونده:Star-sizes-fa.jpg|بندانگشتی|چپ|500px|هم‌سنجی سیاره‌های منظومه خورشیدی با تعدادی از ستاره‌های مشهور:{{سخ}}'''الف:'''{{سخ}}[[زمین]] (۴) &lt;span style="font-size: large;"&gt;&gt;&lt;/span&gt; [[ناهید (سیاره)|ناهید]] (۳) &lt;span style="font-size: large;"&gt;&gt;&lt;/span&gt; [[مریخ]] (۲) &lt;span style="font-size: large;"&gt;&gt;&lt;/span&gt; [[تیر (سیاره)|تیر]] (۱){{سخ}}'''ب:'''{{سخ}}[[مشتری (سیاره)|مشتری]] (۸) &lt;span style="font-size: large;"&gt;&gt;&lt;/span&gt; [[زحل]] (۷) &lt;span style="font-size: large;"&gt;&gt;&lt;/span&gt; اورانوس(۶) &lt;span style="font-size: large;"&gt;&gt;&lt;/span&gt; [[نپتون]] (۵) &lt;span style="font-size: large;"&gt;&gt;&lt;/span&gt; [[زمین]] (بدون شماره){{سخ}}'''پ:'''{{سخ}}[[شباهنگ (ستاره)|شباهنگ]] (۱۱) &lt;span style="font-size: large;"&gt;&gt;&lt;/span&gt; [[خورشید]] (۱۰) &lt;span style="font-size: large;"&gt;&gt;&lt;/span&gt; [[ولف ۳۵۹]] (۹) &lt;span style="font-size: large;"&gt;&gt;&lt;/span&gt; [[مشتری (سیاره)|مشتری]] (بدون شماره){{سخ}}'''ت:'''{{سخ}}[[دبران]] (۱۴) &lt;span style="font-size: large;"&gt;&gt;&lt;/span&gt; [[نگهبان شمال]] (۱۳) &lt;span style="font-size: large;"&gt;&gt;&lt;/span&gt; [[رأس پیکر پسین]] (۱۲) &lt;span style="font-size: large;"&gt;&gt;&lt;/span&gt; [[شباهنگ (ستاره)|شباهنگ]] (بدون شماره){{سخ}}'''ث:'''{{سخ}}[[ابط‌الجوزا]] (۱۷) &lt;span style="font-size: large;"&gt;&gt;&lt;/span&gt;[[قلب عقرب]] (۱۶) &lt;span style="font-size: large;"&gt;&gt;&lt;/span&gt; [[پای شکارچی]] (۱۵) &lt;span style="font-size: large;"&gt;&gt;&lt;/span&gt; [[دبران]] (بدون شماره){{سخ}}'''ج:'''{{سخ}}[[وی‌وای سگ بزرگ]] (۲۰) &lt;span style="font-size: large;"&gt;&gt;&lt;/span&gt;[[وی‌وی قیفاووس]] (۱۹) &lt;span style="font-size: large;"&gt;&gt;&lt;/span&gt; [[مو قیفاووس]] (۱۸) &lt;span style="font-size: large;"&gt;&gt;&lt;/span&gt; [[ابط‌الجوزا]] (بدون شماره)]]
+جرم این سیاره برابر (۰٫۰۰۱۳ ± ۸٫۶۸۱۰){{e|۲۵}} [[کیلوگرم|kg]] و ۱۴٫۵۳۶ برابر زمین است&lt;ref name=Jacobson1992/&gt; و چگالی آن ۱٫۲۵ برآورد می‌شود&lt;ref name=haft/&gt; در نتیجه احتمال می‌رود از جو بسیار ضخیم، گوشته‌ای مایع و هسته‌ای جامد و کوچک تشکیل شده باشد.&lt;ref&gt;{{یادکرد|فصل=|کتاب=|ناشر= |چاپ= |شهر= |کوشش= |ویرایش= |سال=|شابک=|نویسنده={{جا:#if:|, {{چر}}}} |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه= |زبان=fa |مقاله= [http://www.ngdir.ir/sitelinks/kids/html/star-mafahim_oranus_general.htm مفاهیم] {{جا:#if:فارسی|(فارسی)}} {{جا:#if:|()}} |ژورنال= |نشریه= |تاریخ= {{جا:#if:|, {{چر}}}} |دوره= |شماره= |شاپا=}} {{جا:#if:2009-04-25|بازیابی‌شده در تاریخ 25-04-2009}}.}} {{جا:#if:|Retrieved on , {{چر}}.}}&lt;/ref&gt;&lt;ref&gt;{{یادکرد|فصل= |کتاب={{جا:#if:|[ شگفتی‌های جهان]|شگفتی‌های جهان|ناشر= |چاپ= |شهر= |کوشش= {{جا:#if:|, {{چر}}}} |ویرایش= |سال= {{جا:#if:|, {{چر}}}} |شابک={{جا:#if:|ISBN}} |نویسنده=ویکتوری، {{چر}}ابراهیم |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه=۱۸۰ |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} {{جا:#if:|Retrieved on .}}&lt;/ref&gt; شتاب گرانشی آن نیز ۹۰ درصد شتاب گرانشی زمین تخمین زده شده‌است.&lt;ref name=haft/&gt; دمای بخش مایع آن ۲۳۰۰ درجه سانتیگراد و هسته آن ۷۰۰۰ درجه سانتیگراد است.&lt;ref name=haft/&gt;
+
+=== گرمای درونی ===
+این سیاره برخلاف دیگر [[سیارات مشتری‌گون]] منبع گرمای داخلی قابل توجهی ندارد.&lt;ref name="dictio"/&gt;
+
+== جو ==
+در جو آن [[هیدروژن]] (به شکل H&lt;sub&gt;2&lt;/sub&gt;) و ۱۲ درصد [[هلیوم]] و ۲ درصد&lt;ref name="dictio"/&gt; [[متان]] وجود دارد اما از آنجایی که متان به شدت نور قرمز را جذب می‌کند این سیاره به رنگ آبی مایل به سبز دیده می‌شود.&lt;ref&gt;{{یادکرد|فصل= |کتاب={{جا:#if:|[ نجوم دینامیکی]|نجوم دینامیکی}}|ناشر= |چاپ= |شهر= |کوشش= {{جا:#if:|, {{چر}}}} |ویرایش= |سال= {{جا:#if:|, {{چر}}}} |شابک={{جا:#if:|ISBN}} |نویسنده=دیکسون{{جا:#if:رابرت تی.|، {{چر}}رابرت تی.}} |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه=267}} |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} {{جا:#if:|Retrieved on .}}&lt;/ref&gt;&lt;ref&gt;{{یادکرد|فصل= |کتاب={{جا:#if:|[ سیاره‌ها و سفرهای فضایی]|سیاره‌ها و سفرهای فضایی|ناشر= قدیانی|چاپ= |شهر= |کوشش= {{جا:#if:|, {{چر}}}} |ویرایش= چرا و چگونه |سال= {{جا:#if:|, {{چر}}}} |شابک={{جا:#if:ISBN 978-964-536-341-1|ISBN ISBN 978-964-536-341-1}} |نویسنده=اوبلاکر{{جا:#if:اریش|، {{چر}}اریش}} |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه=39}} |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} {{جا:#if:|Retrieved on .}}&lt;/ref&gt; [[اخترشناسی فروسرخ|برررسی مادون قرمز]] حاکی از آن است که دمای این سیاره برابر ۵۸ درجه کلوین است.&lt;ref name=haft/&gt;&lt;ref name=enc&gt;{{یادکرد|فصل= مدخل:اورانوس|کتاب={{جا:#if:|[ فرهنگ مصور فضا]|فرهنگ مصور فضا|ناشر= دانشگاه شهید چمران اهواز|چاپ= |شهر= |کوشش= {{جا:#if:|, {{چر}}}} |ویرایش= |سال=1382}} {{جا:#if:|, {{چر}}}} |شابک={{جا:#if:|ISBN}} |نویسنده=پلارد{{جا:#if:میکائیل|, {{چر}}میکائیل}} |نویسندگان سایر بخش‌ها=ترتمن، فلیستی|ترجمه=|صفحه=۱۵۰ |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} {{جا:#if:|Retrieved on .}}&lt;/ref&gt;&lt;ref&gt;{{یادکرد|فصل= |کتاب={{جا:#if:|[ نجوم و اخترفیزیک مقدماتی]|نجوم و اخترفیزیک مقدماتی|ناشر= |چاپ= |شهر= |کوشش= {{جا:#if:|, {{چر}}}} |ویرایش= |سال= {{جا:#if:|, {{چر}}}} |شابک={{جا:#if:|ISBN}} |نویسنده=زیلیک{{جا:#if:|, {{چر}}}} |نویسندگان سایر بخش‌ها=اسمیت|ترجمه=|صفحه=236}} |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} {{جا:#if:|Retrieved on .}}&lt;/ref&gt;&lt;ref&gt;{{یادکرد|فصل= |کتاب={{جا:#if:|[ اطلس جامع گیتاشناسی ۸۷-۸۸]|اطلس جامع گیتاشناسی ۸۷–۸۸}}|ناشر= مؤسسه جغرافیایی و کارتوگرافی گیتاشناسی|چاپ= |شهر= تهران|کوشش= {{جا:#if:|, {{چر}} |ویرایش= |سال=تابستان 1387}} {{جا:#if:|, {{چر}}}} |شابک={{جا:#if:ISBN 978-964-342-270-7|ISBN ISBN 978-964-342-270-7 |نویسنده={{جا:#if:|, {{چر}}}} |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه=۵ |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} {{جا:#if:|Retrieved on .}}&lt;/ref&gt;
+
+تصاویر رایانه‌ای نشان می‌دهد ابرهای آمونیاکی به بزرگی ۲ تا ۴ کیلومتر&lt;ref name=autogenerated3&gt;{{یادکرد|فصل= |کتاب={{جا:#if:|[ اطلس منظومه خورشیدی]|اطلس منظومه خورشیدی}}|ناشر= |چاپ= |شهر= |کوشش= {{جا:#if:|, {{چر}}}} |ویرایش= |سال= {{جا:#if:|, {{چر}}}} |شابک={{جا:#if:|ISBN}} |نویسنده=مور{{جا:#if:پاتریک|، {{چر}}پاتریک}} |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه=176}} |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} {{جا:#if:|Retrieved on .}}&lt;/ref&gt; در زیر جو اورانوس و در ارتفاعات پایین قرار دارند و این ابرها در استوا در طی ۱۵ ساعت یک بار دور سیاره می‌زنند ولی در نزدیکی قطب این مقدار به ۱۵ ساعت می‌رسد.&lt;ref&gt;{{یادکرد|فصل= |کتاب={{جا:#if:|[ نجوم و اخترفیزیک مقدماتی]|نجوم و اخترفیزیک مقدماتی|ناشر= |چاپ= |شهر= |کوشش= {{جا:#if:|, {{چر}}}} |ویرایش= |سال= {{جا:#if:|, {{چر}}}} |شابک={{جا:#if:|ISBN}} |نویسنده=زیلیک{{جا:#if:|, {{چر}}}} |نویسندگان سایر بخش‌ها=اسمیت|ترجمه=|صفحه=۲۳۸ |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} {{جا:#if:|Retrieved on .}}&lt;/ref&gt; به نظر می‌رسد این سیاره دارای [[یونیسفر]] قوی باشد.&lt;ref name=pat1/&gt; بیشتر بادهای این سیاره برخلاف دیگر سیاره‌های مشتری‌گون منظومه شمسی از شرق به غرب می‌وزند نه از شمال به جنوب.&lt;ref name="philip"/&gt;
+
+=== جنس سطح سیاره ===
+=== تروپوسفر ===
+=== جو بالایی ===
+در ارتفاعات بالایی دما ۶۴ کلوین (با تلورانس ۵ کلوین) می‌گردد&lt;ref name="philip"/&gt; و در این ارتفاعات آن بادهایی با سرعت ۳۰۰ تا ۴۰۰ متر می‌وزند و البته گردبادهایی نیز در آن وجود دارند که به شکل لکه‌هایی دیده می‌شوند.&lt;ref name=haft/&gt;
+
+== حلقه‌ها ==
+[[پرونده:Uranian rings scheme fa.svg|چپ|بندانگشتی|250px|حلقه‌ها و ماه‌های اورانوس]]
+حلقه‌های اورانوس در ده مارس ۱۹۷۷ در [[رصدخانه ایربورن کوئی‌پر ناسا]] و توسط [[جیمز الیوت]]&lt;ref name=pat2/&gt; کشف شد شد بدین گونه که قبل و بعد از اختفای یک ستاره پشت اورانوس، نور ستاره متناوباً کم و زیاد می‌شد و با بررسی‌های انجام گرفته در آن هنگام ثابت شد این سیاره ۵ حلقه دارد و بعداً به ۹ حلقه رسید&lt;ref&gt;{{یادکرد|فصل= |کتاب={{جا:#if:|[ نجوم دینامیکی]|نجوم دینامیکی}}|ناشر= |چاپ= |شهر= |کوشش= {{جا:#if:|, {{چر}}}} |ویرایش= |سال= {{جا:#if:|, {{چر}}}} |شابک={{جا:#if:|ISBN}} |نویسنده=دیکسون{{جا:#if:رابرت تی.|، {{چر}}رابرت تی.}} |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه=271-272}} |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} {{جا:#if:|Retrieved on .}}&lt;/ref&gt; بعد از گذر ویجر ۲ از اورانوس به یازده حلقه افزایش یافت.&lt;ref&gt;{{یادکرد|فصل= سفرهای اکتشافی|کتاب={{جا:#if:|[ اسرار کائنات]|اسرار کائنات|ناشر= به‌نگار|چاپ= |شهر= |کوشش= {{جا:#if:|, {{چر}}}} |ویرایش= |سال=1385}} {{جا:#if:|, {{چر}}}} |شابک={{جا:#if: |ISBN   |نویسنده=ویکتوری{{جا:#if:ابراهیم|، {{چر}}ابراهیم}} |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه=119}} |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} {{جا:#if:|Retrieved on .}}&lt;/ref&gt; این حلقه‌ها به ترتیب از بیرونی‌ترین به درونی‌ترین عبارتند از:اپسیلون،1986U1R، دلتا، گاما، اتا، بتا، آلفا، ۴٬۵٬۶ و {{چر}}1986U2R{{رچ}}&lt;ref name=autogenerated2&gt;{{یادکرد|فصل= |کتاب={{جا:#if:|[ نجوم دینامیکی]|نجوم دینامیکی|ناشر= |چاپ= |شهر= |کوشش= {{جا:#if:|, {{چر}}}} |ویرایش= |سال= {{جا:#if:|, {{چر}}}} |شابک={{جا:#if:|ISBN}} |نویسنده=دیکسون{{جا:#if:رابرت تی.|، {{چر}}رابرت تی.}} |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه=273}} |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} {{جا:#if:|Retrieved on .}}&lt;/ref&gt;&lt;ref&gt;{{یادکرد|فصل=|کتاب=|ناشر= |چاپ= |شهر= |کوشش= |ویرایش= |سال=|شابک=|نویسنده={{جا:#if:|, {{چر}}}} |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه= |مقاله= [http://www.ngdir.ir/sitelinks/kids/html/star-mafahim_oranus_rings.htm حلقه‌های اورانوس] {{جا:#if:فارسی|(فارسی) {{جا:#if:|()}} |ژورنال= |نشریه= |تاریخ= {{جا:#if:|, {{چر}}}} |دوره= |شماره= |شاپا=}} {{جا:#if:2009-04-25|بازیابی‌شده در تاریخ ۲۵-۰۴-۲۰۰۹ .}} {{جا:#if:|Retrieved on , {{چر}}.}}&lt;/ref&gt; پهنای حلقه اپسلیون به صد کیلومتر می‌رسد و خرده ریزه‌های آن بین ۱۳ تا ۱۳٫۶ سانتی‌متر است اما پهنای بقیه حلقه‌ها از ۱۰ کیلومتر تجاوز نکرده و از خرده ریزهای حلقه اپسیلون کوچکترند اما کل حلقه [[آلبدو|آلبدویی]] برابر ۵ درصد دارد.&lt;ref name=pat2/&gt;
+
+== میدان مغناطیسی ==
+[[پرونده:Uranian Magnetic field.gif|راست|بندانگشتی|250px|انحراف میدان مغناطیسی اورانوس]]
+میدان مغناطیسی این سیاره ۵۵&lt;ref&gt;{{یادکرد|فصل= |کتاب={{جا:#if:|[ نجوم و اخترفیزیک مقدماتی]|نجوم و اخترفیزیک مقدماتی}}|ناشر= |چاپ= |شهر= |کوشش= {{جا:#if:|, {{چر}}}} |ویرایش= |سال= {{جا:#if:|, {{چر}}}} |شابک={{جا:#if:|ISBN}} |نویسنده=زیلیک{{جا:#if:|, {{چر}}}} |نویسندگان سایر بخش‌ها=اسمیت|ترجمه=|صفحه=238}} |زبان=fa |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}}&lt;/ref&gt; تا ۵۸٫۵ درجه&lt;ref name=pat1/&gt; نسبت به محور چرخش آن تفاوت دارد و این بیشترین مقداری است که در میان سیارات ثبت شده‌است&lt;ref name="philip"/&gt; و پیش‌بینی می‌شود که مرکز مغناطیسی آن در مکان متفاوتی نسبت به مرکز سیاره و با فاصله‌ای حدوداً ۸٬۰۰۰ کیلومتری&lt;ref name=pat1/&gt; باشد.&lt;ref&gt;{{یادکرد|فصل= |کتاب={{جا:#if:|[ نجوم دینامیکی]|نجوم دینامیکی|ناشر= |چاپ= |شهر= |کوشش= {{جا:#if:|, {{چر}}}} |ویرایش= |سال= {{جا:#if:|, {{چر}}}} |شابک={{جا:#if:|ISBN}} |نویسنده=دیکسون، {{چر}}رابرت تی. |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه=271}} |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} {{جا:#if:|Retrieved on .}}&lt;/ref&gt; ویجر ۲ اثبات نمود که در اطراف اورانوس میدان مغناطیسی قوی‌ای قرار دارد اما شدت آن یک دهم میدان مغناطیسی زحل است.&lt;ref&gt;{{یادکرد|فصل= |کتاب={{جا:#if:|[ نجوم و اخترفیزیک مقدماتی]|نجوم و اخترفیزیک مقدماتی|ناشر= |چاپ= |شهر= |کوشش= {{جا:#if:|, {{چر}}}} |ویرایش= |سال= {{جا:#if:|, {{چر}}}} |شابک= |نویسنده=زیلیک{{جا:#if:|, {{چر}}}} |نویسندگان سایر بخش‌ها=اسمیت|ترجمه=|صفحه=238}} |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} {{جا:#if:|Retrieved on .}}&lt;/ref&gt; با این حال قدرت آن به طور متوسط ۵۰ بار نیرومندتر از میدان مغناطیسی زمین است و دنباله‌ای به طول ۴۶۵٬۰۰۰ کیلومتر(۱۸ برابر شعاع خودش&lt;ref name="philip"/&gt;) دارد.&lt;ref name=pat2&gt;{{یادکرد|فصل= |کتاب={{جا:#if:|[ اطلس منظومه خورشیدی]|اطلس منظومه خورشیدی|ناشر= |چاپ= |شهر= |کوشش= {{جا:#if:|, {{چر}}}} |ویرایش= |سال= {{جا:#if:|, {{چر}}}} |شابک={{جا:#if:|ISBN}} |نویسنده=پاتریک{{جا:#if:مور|، {{چر}}مور}} |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه=177 |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} {{جا:#if:|Retrieved on .}}&lt;/ref&gt; و در این مغناطوکره به علت برخورد طوفان‌های خورشیدی و دیگر [[پرتو کیهانی|پرتوهای کیهانی]] [[پلاسما|پلاسماهایی]] با دمای ۱۰٬۰۰۰ کلوین به وجود می‌آید.&lt;ref name="philip"/&gt;
+
+== اقلیم ==
+[[پرونده:Uranus Dark spot.jpg|چپ|بندانگشتی|250px|لکه تاریک اورانوس]]
+&lt;!-- == تشکیل ==
+Many argue that the differences between the ice giants and the gas giants extend to their formation.&lt;ref name=Thommes1999/&gt;&lt;ref name=Brunini1999&gt;{{cite journal|last=Brunini|first=Adrian|coauthors=Fernandez, Julio A.|title=Numerical simulations of the accretion of Uranus and Neptune |journal=Plan. Space Sci.|volume=47|pages=591–605|year=1999|doi=10.1016/S0032-0633(98)00140-8| url=http://adsabs.harvard.edu/abs/1999P&amp;SS...47..591B}}&lt;/ref&gt; The Solar System is believed to have formed from a giant rotating ball of gas and dust known as the [[presolar nebula]]. Much of the nebula's gas, primarily hydrogen and helium, formed the Sun, while the dust grains collected together to form the first protoplanets. As the planets grew, some of them eventually accreted enough matter for their gravity to hold onto the nebula's leftover gas.&lt;ref name=Thommes1999/&gt;&lt;ref name=Brunini1999/&gt; The more gas they held onto, the larger they became; the larger they became, the more gas they held onto until a critical point was reached, and their size began to increase exponentially. The ice giants, with only a few Earth masses of nebular gas, never reached that critical point.&lt;ref name=Thommes1999/&gt;&lt;ref name=Brunini1999/&gt;&lt;ref name=Jewitt2006&gt;{{cite journal|last=Sheppard|first=Scott S.|coauthors=Jewitt, David; Kleyna, Jan|title=An Ultradeep Survey for Irregular Satellites of Uranus: Limits to Completeness|journal=The Astronomical Journal| volume=129|pages=518–525| url=http://arxiv.org/abs/astro-ph/0410059v1|year=2006| doi=10.1086/426329}}&lt;/ref&gt; Recent simulations of [[planetary migration]] have suggested that both ice giants formed closer to the Sun than their present positions, and moved outwards after formation, a hypothesis which is detailed in the [[Nice model]].&lt;ref name=Thommes1999&gt;{{cite journal|last=Thommes|first=Edward W.|coauthors=Duncan, Martin J. ; Levison, Harold F.|title=The formation of Uranus and Neptune in the Jupiter-Saturn region of the Solar System|journal=Nature|volume=402|pages=635–638| url=http://www.boulder.swri.edu/~hal/PDF/un-scat_nature.pdf|year=1999|doi=10.1038/45185|format=pdf|pmid=10604469|issue=6762}}&lt;/ref&gt;--&gt;
+
+== قمرها ==
+[[پرونده:Uranus and Ariel.jpg|چپ|بندانگشتی|250px|اورانوس و [[آریل (ماه)|آریل]]]]
+{{اصلی|قمرهای طبیعی اورانوس}}
+اورانوس ۲۷ قمر طبیعی دارد که از آن ده قمر توسط [[ویجر ۲]] کشف شد.&lt;ref&gt;{{یادکرد|فصل= سفرهای اکتشافی|کتاب={{جا:#if:|[ اسرار کائنات]|اسرار کائنات}}|ناشر= به‌نگار|چاپ= |شهر= |کوشش= {{جا:#if:|, {{چر}}}} |ویرایش= |سال=1385}} {{جا:#if:|, {{چر}}}} |شابک={{جا:#if: |ISBN   |نویسنده=ویکتوری{{جا:#if:ابراهیم|، {{چر}}ابراهیم}} |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه=118-119}} |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} {{جا:#if:|Retrieved on .}}&lt;/ref&gt;(۹ قمر در ژانویه ۱۹۹۶ کشف شده و در نام آنها ۱۹۹۶ وجود دارد و یک قمر در ۳۱ دسامبر ۱۹۹۵ کشف و در نام آن ۱۹۹۵ وجود دارد.&lt;ref name=pat3&gt;{{یادکرد|فصل= |کتاب={{جا:#if:|[ اطلس منظومه خورشیدی]|اطلس منظومه خورشیدی|ناشر= |چاپ= |شهر= |کوشش= {{جا:#if:|, {{چر}}}} |ویرایش= |سال= {{جا:#if:|, {{چر}}}} |شابک={{جا:#if:|ISBN}} |نویسنده=مور{{جا:#if:پاتریک|، {{چر}}پاتریک}} |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه=178}} |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} {{جا:#if:|Retrieved on .}}&lt;/ref&gt;)بیرونی‌ترین قمر آن [[اوبرون (ماه)|اوبرون]]&lt;ref name=autogenerated2/&gt; و بزرگترین قمر آن [[تیتانا]] با قطر ۱٬۵۸۰ کیلومتر است.&lt;ref name=pat3/&gt; دو قمر [[کوردلیا]] و [[افیلیا (قمر)|اوفلیا]] لبه‌های حلقه اپسلیون را جاروب می‌کنند.&lt;ref&gt;{{یادکرد|فصل= |کتاب={{جا:#if:|[ اطلس منظومه خورشیدی]|اطلس منظومه خورشیدی|ناشر= |چاپ= |شهر= |کوشش= {{جا:#if:|, {{چر}}}} |ویرایش= |سال= {{جا:#if:|, {{چر}}}} |شابک={{جا:#if:|ISBN}} |نویسنده=مور{{جا:#if:پاتریک|، {{چر}}پاتریک}} |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه=۱۷۹ |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} {{جا:#if:|Retrieved on .}}&lt;/ref&gt;
+{| class=wikitable
+|-
+!نام!!قطر (کیلومتر)!!شعاع مدار گردش (کیلومتر)
+|-
+| &lt;span lang="fa" dir="rtl"&gt;اوبرون&lt;/span&gt;
+| &lt;span lang="fa"&gt;۱۵۵۰&lt;/span&gt;
+| width="181" | &lt;span lang="fa"&gt;۵۸۰۱۶۰&lt;/span&gt;
+|----
+| &lt;span lang="fa" dir="rtl"&gt;تیتانا&lt;/span&gt;
+| &lt;span lang="fa"&gt;۱۵۸۵&lt;/span&gt;
+| width="181" | &lt;span lang="fa"&gt;۴۳۳۴۴۰&lt;/span&gt;
+|----
+| &lt;span lang="fa" dir="rtl"&gt;اومبریل&lt;/span&gt;
+| &lt;span lang="fa"&gt;۱۱۸۵&lt;/span&gt;
+| width="181" | &lt;span lang="fa"&gt;۲۶۴۸۰۰&lt;/span&gt;
+|----
+| &lt;span lang="fa" dir="rtl"&gt;آریل&lt;/span&gt;
+| &lt;span lang="fa"&gt;۱۱۶۰&lt;/span&gt;
+| width="181" | &lt;span lang="fa"&gt;۱۸۹۹۲۰&lt;/span&gt;
+|----
+| &lt;span lang="fa"&gt;میراندا&lt;/span&gt; || &lt;span lang="fa"&gt;۴۸۰&lt;/span&gt;
+| width="181" | &lt;span lang="fa"&gt;۱۲۸۶۴۰&lt;/span&gt;
+|----
+| &lt;span lang="fa"&gt;پوکا&lt;/span&gt;
+| &lt;span lang="fa" dir="rtl"&gt;۱۶۰×۱۶۸&lt;/span&gt;
+| width="181" | &lt;span lang="fa" dir="rtl"&gt;۸۵۴۹۰&lt;/span&gt;
+|----
+| &lt;span lang="fa"&gt;بلیندا&lt;/span&gt; || &lt;span lang="fa" dir="rtl"&gt;۴۸&lt;/span&gt;
+| width="181" | &lt;span lang="fa" dir="rtl"&gt;۷۴۶۶۰&lt;/span&gt;
+|----
+| &lt;span lang="fa"&gt;روالیند&lt;/span&gt; || &lt;span lang="fa"&gt;۴۸&lt;/span&gt;
+| width="181" | &lt;span lang="fa"&gt;۶۹۵۲۰&lt;/span&gt;
+|----
+| &lt;span lang="fa"&gt;پورشیا&lt;/span&gt; || &lt;span lang="fa"&gt;۹۶&lt;/span&gt;
+| width="181" | &lt;span lang="fa"&gt;۶۵۷۱۰&lt;/span&gt;
+|----
+| &lt;span lang="fa" dir="rtl"&gt;ژولیت&lt;/span&gt;
+| &lt;span lang="fa"&gt;۸۰&lt;/span&gt;
+| width="181" | &lt;span lang="fa"&gt;۶۳۹۸۰&lt;/span&gt;
+|----
+| &lt;span lang="fa"&gt;دزدیمونا&lt;/span&gt; || &lt;span lang="fa"&gt;۴۸&lt;/span&gt;
+| width="181" | &lt;span lang="fa"&gt;۶۲۳۴۰&lt;/span&gt;
+|----
+| &lt;span lang="fa"&gt;کرسدا&lt;/span&gt; || &lt;span lang="fa"&gt;۸۰&lt;/span&gt;
+| width="181" | &lt;span lang="fa"&gt;۶۱۳۹۰&lt;/span&gt;
+|----
+| &lt;span lang="fa"&gt;بیانکا&lt;/span&gt; || &lt;span lang="fa"&gt;۴۸&lt;/span&gt;
+| width="181" | &lt;span lang="fa"&gt;۵۸۷۵۰&lt;/span&gt;
+|----
+| اوفیلیا || &lt;span lang="fa"&gt;۲۴&lt;/span&gt;
+| width="181" | &lt;span lang="fa"&gt;۵۲۹۹۰&lt;/span&gt;
+|----
+| &lt;span lang="fa"&gt;کوردلیا&lt;/span&gt; || &lt;span lang="fa"&gt;۱۶&lt;/span&gt;
+| width="181" | &lt;span lang="fa"&gt;۴۹۰۱۰&lt;/span&gt;
+|}
+
+== در فرهنگ ==
+اورانوس در [[اختربینی]] (با نماد [[پرونده:Uranus's astrological symbol.svg|22px]]) مورد استفاده قرار می‌گیرد و به عنوان سیاره برج [[دلو]] محسوب می‌شود.
+
+عنصر کشف شده در سال ۱۷۸۹ به خاطر اورانوس [[اورانیوم]] نامیده‌شد.&lt;ref&gt;{{cite encyclopedia | edition=4th edition | title=Uranium | encyclopedia=The American Heritage Dictionary of the English Language | publisher=Houghton Mifflin Company | url=http://www.answers.com/uranium | accessdate=2010-04-20}}&lt;/ref&gt;
+
+[[عملیات اورانوس]] همچنین نام یک عملیات در [[جنگ جهانی دوم]] بود که توسط ارتش [[شوروی]] در مقابل [[ورماخت]] به اجرا درآمد و موجب بازپس گیری [[استالین‌گراد]] شد.
+
+== پی‌نوشتها ==
+{{پانویس|۲|اندازه=ریز}}
+
+== منابع ==
+* {{یادکرد|فصل= اورانوس|کتاب=اطلس منظومه خورشیدی|ناشر= گیتاشناسی|چاپ= |شهر= |کوشش=  |ویرایش= |سال=تابستان ۱۳۷۴  |شابک= |نویسنده=مور، {{چر}}پاتریک |نویسندگان سایر بخش‌ها=جری هانت|ترجمه=|صفحه=۱۷۶–۱۸۰ |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} 
+* {{یادکرد|فصل=۱ سیارات مشتری‌گون|کتاب=نجوم و اخترفیزیک مقدماتی|ناشر= دانشگاه امام رضا|چاپ= |شهر= |کوشش=  |ویرایش= |سال=۱۳۸۶  |شابک= |نویسنده=زیلیک |نویسندگان سایر بخش‌ها=اسمیت|ترجمه=|صفحه= |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}} 
+* {{یادکرد|فصل= سیارات برجیسی|کتاب=نجوم دینامیکی|ناشر= مرکز نشر دانشگاهی|چاپ= |شهر= تهران|کوشش=  |ویرایش= |سال=۱۳۸۲  |شابک= |نویسنده=دیکسون، {{چر}}رابرت تی. |نویسندگان سایر بخش‌ها=|ترجمه=|صفحه= |زبان=fa |مقاله= |ژورنال= |نشریه= |تاریخ= |دوره= |شماره= |شاپا=}}
+* Wikipedia contributors, "Uranus," Wikipedia, The Free Encyclopedia, http://en.wikipedia.org/w/index.php?title=Uranus&amp;oldid=377377222 (accessed August ۱۰, ۲۰۱۰).
+{{اورانوس}}
+{{قمرهای اورانوس}}
+{{منظومه خورشیدی}}
+{{ویکی‌انبار-رده|Uranus (planet)}}
+
+[[رده:اورانوس]]
+[[رده:غول‌های گازی]]
+[[رده:منظومه شمسی]]</text>
+      <sha1>96y2z8y76if4l0yt5zb7epvds8dijf3</sha1>
+    </revision>
+  </page>
+  

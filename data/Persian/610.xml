@@ -1,0 +1,22 @@
+<page>
+    <title>سامانه های توکار</title>
+    <ns>0</ns>
+    <id>4646</id>
+    <redirect title="سامانه نهفته" />
+    <revision>
+      <id>10156699</id>
+      <parentid>223157</parentid>
+      <timestamp>2013-04-21T18:10:17Z</timestamp>
+      <contributor>
+        <username>AvicBot</username>
+        <id>228169</id>
+      </contributor>
+      <minor />
+      <comment>ربات: اصلاح تغییرمسیر دوتایی به [[سامانه نهفته]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">#REDIRECT [[سامانه نهفته]]</text>
+      <sha1>5moyomz71nlvkyzicwtftpg1ituresr</sha1>
+    </revision>
+  </page>
+  

@@ -1,0 +1,130 @@
+<page>
+    <title>استان سینوپ</title>
+    <ns>0</ns>
+    <id>4289</id>
+    <revision>
+      <id>16272379</id>
+      <parentid>15197446</parentid>
+      <timestamp>2015-12-11T12:33:28Z</timestamp>
+      <contributor>
+        <username>Hamid Hassani</username>
+        <id>138640</id>
+      </contributor>
+      <minor />
+      <comment>/* ویرایش به وسیلهٔ [[وپ:ابرابزار|ابرابزار]] */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">{{Coord|41|36|33|N|34|54|07|E|region:TR-57_type:adm1st|display=title}}
+{{Infobox settlement
+&lt;!-- See Template:Infobox settlement for additional fields and descriptions --&gt;
+| name                    = استان سینوپ
+| native_name             = Sinop ili
+| native_name_lang        = &lt;!-- ISO 639-2 code e.g. "fr" for French. If more than one, use {{lang}} instead --&gt;
+| settlement_type         = [[فهرست استان‌های ترکیه|استان]]
+| image_skyline           =
+| image_alt               =
+| image_caption           =
+| image_flag              =
+| flag_alt                =
+| image_seal              =
+| seal_alt                =
+| image_shield            =
+| shield_alt              =
+| nickname                =
+| motto                   =
+| image_map               = Sinop Turkey Provinces locator.gif
+| map_alt                 =
+| map_caption             =
+| image_map1              = Sinop districts.png
+| mapsize1                =
+| map_alt1                =
+| map_caption1            = شهرستان‌های استان سینوپ
+| pushpin_map             =
+| pushpin_label_position  =
+| pushpin_map_alt         =
+| pushpin_map_caption     =
+| latd  = |latm  = |lats  = |latNS  = N
+| longd = |longm = |longs = |longEW = E
+| coor_pinpoint           =
+| coordinates_type        =
+| coordinates_display     = inline,title
+| coordinates_footnotes   =
+| subdivision_type        = [[فهرست کشورهای جهان|کشور]]
+| subdivision_name        = {{TUR}}
+| subdivision_type1       = ناحیه
+| subdivision_name1       = [[ناحیه دریای سیاه|دریای سیاه]]
+| subdivision_type2       =
+| subdivision_name2       =
+| subdivision_type3       =
+| subdivision_name3       =
+| established_title       =
+| established_date        =
+| founder                 =
+| seat_type               = [[فهرست شهرهای ترکیه|مرکز]]
+| seat                    = [[سینوپ]]
+| government_footnotes    =
+| leader_party            =
+| leader_title            = فرماندار
+| leader_name             = Ahmet Cengiz
+| unit_pref               = Metric&lt;!-- or US or UK --&gt;
+| area_footnotes          =
+| area_total_km2          = ۵٬۸۶۲
+| area_land_km2           =
+| area_water_km2          =
+| area_water_percent      =
+| area_note               =
+| elevation_footnotes     =
+| elevation_m             =
+| population_footnotes    =
+| population_total        = ۲۰۱٬۱۳۴
+| population_as_of        = ۲۰۱۰
+| population_density_km2  = auto
+| population_demonym      =
+| population_note         =
+| timezone1               =
+| utc_offset1             =
+| timezone1_DST           =
+| utc_offset1_DST         =
+| postal_code_type        = [[کد پستی]]
+| postal_code             =
+| area_code_type          =
+| area_code               = ۰۳۶۸
+| registration_plate      = ۵۷
+| iso_code                = TR-57
+| website                 = {{URL|http://www.sinop.gov.tr/}}
+| footnotes               =
+}}
+
+'''سینوپ''' {{به ترکی|Sinop}} نام یکی از ۸۱ استان [[ترکیه]] است که مرکز آن هم شهر [[سینوپ]] است.
+
+== شهرستان‌ها ==
+استان سینوپ ۹ شهرستان دارد:
+* [[آیانجیک]] (Ayancık)
+* [[بوی‌آباد (ترکیه)|بوی‌آباد]] (Boyabat)
+* [[دیکمن]] (Dikmen)
+* [[دوراغان]] (Durağan)
+* [[ارفلک]] (Erfelek)
+* [[گرزه، ترکیه|گرزه]] (Gerze)
+* [[سرای‌دوزو]] (Saraydüzü)
+* '''[[سینوپ]]''' (Sinop)
+* [[تورکلی]] (Türkeli)
+
+[[پرونده:Sinop_Turkey_Provinces_locator.jpg|بندانگشتی|راست|محل استان سینوپ در نقشه ترکیه]]
+
+{{-}}
+
+== منابع ==
+{{ویکی‌انبار-رده|Sinop Province}}
+* {{یادکرد-ویکی
+|پیوند=https://en.wikipedia.org/w/index.php?title=Sinop_Province&amp;oldid=558309457
+|عنوان=Sinop Province
+|زبان=انگلیسی
+|بازیابی=۸ ژانویه ۲۰۱۴}}
+{{استان‌های ترکیه}}
+{{ترکیه-خرد}}
+[[رده:استان سینوپ]]
+[[رده:استان‌های ترکیه|سینوپ]]</text>
+      <sha1>tleb3juwrqx24mb2m7prq0dadvo21mv</sha1>
+    </revision>
+  </page>
+  

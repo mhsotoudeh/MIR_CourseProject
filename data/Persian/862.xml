@@ -1,0 +1,22 @@
+<page>
+    <title>معسكر</title>
+    <ns>0</ns>
+    <id>5478</id>
+    <redirect title="معسکر" />
+    <revision>
+      <id>288466</id>
+      <parentid>161859</parentid>
+      <timestamp>2006-09-12T11:26:55Z</timestamp>
+      <contributor>
+        <username>روزبه</username>
+        <id>4</id>
+      </contributor>
+      <minor />
+      <comment>تغییر مسیر به [[معسکر]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">#REDIRECT [[معسکر]]</text>
+      <sha1>bo6qecr4rofdsnrkhucjrb47jkxhtgz</sha1>
+    </revision>
+  </page>
+  

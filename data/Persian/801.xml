@@ -1,0 +1,22 @@
+<page>
+    <title>کشتار و سوزاندن جمعی</title>
+    <ns>0</ns>
+    <id>5342</id>
+    <redirect title="هولوکاست" />
+    <revision>
+      <id>379391</id>
+      <parentid>121560</parentid>
+      <timestamp>2006-12-27T20:35:03Z</timestamp>
+      <contributor>
+        <username>Elessar</username>
+        <id>6031</id>
+      </contributor>
+      <minor />
+      <comment>Robot: Fixing double redirect</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">#REDIRECT [[هولوکاست]]</text>
+      <sha1>slqvsdssuyazjnrxxos0v1vxblg1u9j</sha1>
+    </revision>
+  </page>
+  

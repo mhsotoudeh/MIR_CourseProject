@@ -1,0 +1,33 @@
+<page>
+    <title>الگو:Infobox Biography</title>
+    <ns>10</ns>
+    <id>6155</id>
+    <revision>
+      <id>8316044</id>
+      <parentid>1870698</parentid>
+      <timestamp>2012-10-24T11:48:51Z</timestamp>
+      <contributor>
+        <username>Rezabot</username>
+        <id>206089</id>
+      </contributor>
+      <minor />
+      <comment>ربات:افزودن توضیحات ([[وپ:درخواست‌های ربات/افزودن صفحه توضیحات به الگوها|کد]])</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">{| class="toccolours" style="float:left; margin: 0 0 1em 1em; width:300px; text-align:center;" 
+|- 
+! colspan="2" style="font-size: larger; text-align:center;" | {{{نام موضوع}}} 
+|-  
+| colspan="2" style="text-align:center;" | [[پرونده:{{{نام تصویر}}}|none|200px|{{PAGENAME}}]] {{{image_caption}}} 
+|- 
+! '''زاده''' 
+| {{{تاریخ تولد}}}&lt;br /&gt;{{{مکان تولد}}} 
+|- 
+! '''مرگ''' 
+| {{{تاریخ مرگ}}}&lt;br /&gt;{{{مکان مرگ}}} 
+|}
+&lt;noinclude&gt;{{توضیحات}}&lt;/noinclude&gt;</text>
+      <sha1>02glsn3xee64ga9hi1n5b96l7yuw7jd</sha1>
+    </revision>
+  </page>
+  

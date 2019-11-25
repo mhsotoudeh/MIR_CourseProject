@@ -1,0 +1,21 @@
+<page>
+    <title>هرز نامه</title>
+    <ns>0</ns>
+    <id>5858</id>
+    <redirect title="هرزنامه" />
+    <revision>
+      <id>24714</id>
+      <timestamp>2005-04-14T22:30:59Z</timestamp>
+      <contributor>
+        <username>ماني</username>
+        <id>173</id>
+      </contributor>
+      <comment>هرز نامه به هرزنامه منتقل شد</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">#REDIRECT [[هرزنامه]]
+</text>
+      <sha1>niullfqqrzj7b4ofrto2tkht6ivict6</sha1>
+    </revision>
+  </page>
+  

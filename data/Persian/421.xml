@@ -1,0 +1,137 @@
+<page>
+    <title>استان قیریق‌قلعه</title>
+    <ns>0</ns>
+    <id>4218</id>
+    <revision>
+      <id>15197456</id>
+      <parentid>13420496</parentid>
+      <timestamp>2015-04-21T07:24:18Z</timestamp>
+      <contributor>
+        <username>DbBot</username>
+        <id>264911</id>
+      </contributor>
+      <minor />
+      <comment>[[ویکی‌پدیا:سیاست ربات‌رانی/درخواست مجوز/DbBot/وظیفه ۱۰|حذف پارامترهای تکراری الگوها]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">{{Coord|39|52|11|N|33|42|58|E|region:TR-71_type:adm1st|display=title}}
+{{Infobox settlement
+&lt;!-- See Template:Infobox settlement for additional fields and descriptions --&gt;
+| name                    = استان قیریق‌قلعه
+| native_name             = 
+| native_name_lang        = &lt;!-- ISO 639-2 code e.g. "fr" for French. If more than one, use {{lang}} instead --&gt;
+| settlement_type         =  [[فهرست استان‌های ترکیه|استان]]
+| image_skyline           = 
+| image_alt               = 
+| image_caption           = 
+| image_flag              = 
+| flag_alt                = 
+| image_seal              = 
+| seal_alt                = 
+| image_shield            = 
+| shield_alt              = 
+| nickname                = 
+| motto                   = 
+| image_map               = Kırıkkale Turkey Provinces locator.gif
+| map_alt                 = 
+| map_caption             = 
+| image_map1              =Kırıkkale districts.png 
+| mapsize1                =
+| map_alt1                =
+| map_caption1            = 
+| pushpin_map             = 
+| pushpin_label_position  = 
+| pushpin_map_alt         = 
+| pushpin_map_caption     = 
+| latd  =  |latm  =  |lats  =  |latNS  = N
+| longd =  |longm =  |longs =  |longEW = E
+| coor_pinpoint           = 
+| coordinates_type        = 
+| coordinates_display     = inline,title
+| coordinates_footnotes   = 
+| subdivision_type        = [[فهرست کشورهای جهان|کشور]]
+| subdivision_name        = {{TUR}}
+| subdivision_type1       = ناحیه
+| subdivision_name1       =  [[ناحیه آناتولی مرکزی|آناتولی مرکزی]]
+| subdivision_type2       = 
+| subdivision_name2       = 
+| subdivision_type3       = 
+| subdivision_name3       = 
+| established_title       = 
+| established_date        = 
+| founder                 = 
+| seat_type               = [[فهرست شهرهای ترکیه|مرکز]]
+| seat                    = [[قرق‌قلعه]]
+| government_footnotes    = 
+| leader_party            = 
+| leader_title            =  فرماندار 
+| leader_name             = 
+| unit_pref               = Metric&lt;!-- or US or UK --&gt;
+| area_footnotes          = 
+| area_total_km2          = 
+| area_land_km2           = 
+| area_water_km2          = 
+| area_water_percent      = 
+| area_note               = 
+| elevation_footnotes     = 
+| elevation_m             = 
+| population_footnotes    = 
+| population_total        = 
+| population_as_of        = ۲۰۱۰
+| population_density_km2  = auto
+| population_demonym      = 
+| population_note         = 
+| timezone1               = EET
+| utc_offset1             = ۲+
+| timezone1_DST           = EEST
+| utc_offset1_DST         = ۳+
+| postal_code_type        =  [[کد پستی]]
+| postal_code             = 
+| area_code_type          = 
+| area_code               =   
+| iso_code                = 
+| registration_plate      = 
+| website                 =  
+| footnotes               = 
+}}
+
+'''استان قِرق‌قلعه''' (ترکی: Kırıkkale) نام یکی از استان‌های [[ترکیه]] است.
+
+مرکز این استان شهر [[قرق‌قلعه]] است.
+
+== شهرستان‌ها ==
+* [[باخشیلی]] Bahşılı
+* [[بالی‌شیخ]] Balışeyh
+* [[شهرستان چلبی|چلبی]] Çelebi
+* [[شهرستان دلیجه|دلیجه]] Delice
+* [[کاراکچیلی]] Karakeçili
+* [[کسکین]] Keskin
+* '''قرق‌قلعه''' Kırıkkale
+* [[سولاک‌یورت]] Sulakyurt
+* [[یاخشی‌خان]] Yahşihan
+
+[[پرونده:Kırıkkale Turkey Provinces locator.jpg|راست|بندانگشتی|280px|محل استان قیریق‌قلعه در نقشهٔ ترکیه]]
+
+{{-}}
+== نگارخانه ==
+&lt;gallery&gt;
+Image:Delice Irmak valey near Yeni Yapan.jpg|&lt;!--&lt;center&gt;[[Delice River]] valley near Yeni Yapan&lt;/center&gt;--&gt;
+&lt;/gallery&gt;
+
+== منابع ==
+{{پانویس}}
+{{ویکی‌انبار-رده|Kırıkkale Province}}
+* {{یادکرد-ویکی
+|پیوند=https://en.wikipedia.org/w/index.php?title=K%C4%B1r%C4%B1kkale_Province&amp;oldid=575122121
+|عنوان=Kırıkkale Province
+|زبان=انگلیسی
+|بازیابی=۲۸ ژانویه ۲۰۱۴}}
+{{ترکیه-خرد}}
+{{استان‌های ترکیه}}
+
+[[رده:استان قیریق‌قلعه]]
+[[رده:استان‌های ترکیه|قرق‌قلعه]]</text>
+      <sha1>3e2fxrfy2ns1dsxvixhiq6xmksqyn8u</sha1>
+    </revision>
+  </page>
+  

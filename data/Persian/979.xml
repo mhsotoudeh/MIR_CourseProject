@@ -1,0 +1,22 @@
+<page>
+    <title>ستاره بینی</title>
+    <ns>0</ns>
+    <id>5739</id>
+    <redirect title="اختربینی" />
+    <revision>
+      <id>10376665</id>
+      <parentid>24632</parentid>
+      <timestamp>2013-06-08T18:51:06Z</timestamp>
+      <contributor>
+        <username>AvicBot</username>
+        <id>228169</id>
+      </contributor>
+      <minor />
+      <comment>ربات: اصلاح تغییرمسیر دوتایی به [[اختربینی]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">#REDIRECT [[اختربینی]]</text>
+      <sha1>l4apzftv5s11nbfy2sxrow99fygx2eg</sha1>
+    </revision>
+  </page>
+  

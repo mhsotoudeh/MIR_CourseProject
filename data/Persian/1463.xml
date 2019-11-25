@@ -1,0 +1,21 @@
+<page>
+    <title>بيلبائو</title>
+    <ns>0</ns>
+    <id>6938</id>
+    <redirect title="بیلبائو" />
+    <revision>
+      <id>288467</id>
+      <parentid>25515</parentid>
+      <timestamp>2006-09-12T11:27:51Z</timestamp>
+      <contributor>
+        <username>روزبه</username>
+        <id>4</id>
+      </contributor>
+      <comment>تغییر مسیر به [[بیلبائو]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">#REDIRECT [[بیلبائو]]</text>
+      <sha1>huqttlx4vx90zu0q38mqsso64jz0r0e</sha1>
+    </revision>
+  </page>
+  

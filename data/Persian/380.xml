@@ -1,0 +1,118 @@
+<page>
+    <title>استان آق‌سرای</title>
+    <ns>0</ns>
+    <id>4146</id>
+    <revision>
+      <id>15197417</id>
+      <parentid>11750383</parentid>
+      <timestamp>2015-04-21T07:23:04Z</timestamp>
+      <contributor>
+        <username>DbBot</username>
+        <id>264911</id>
+      </contributor>
+      <minor />
+      <comment>[[ویکی‌پدیا:سیاست ربات‌رانی/درخواست مجوز/DbBot/وظیفه ۱۰|حذف پارامترهای تکراری الگوها]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">{{Coord|38|25|51|N|33|51|44|E|region:TR-68_type:adm1st|display=title}}
+{{Infobox settlement
+&lt;!-- See Template:Infobox settlement for additional fields and descriptions --&gt;
+| name                    = استان آق‌سرای
+| native_name             = Aksaray ili
+| native_name_lang        = &lt;!-- ISO 639-2 code e.g. "fr" for French. If more than one, use {{lang}} instead --&gt;
+| settlement_type         =  [[فهرست استان‌های ترکیه|استان]]
+| image_skyline           = 
+| image_alt               = 
+| image_caption           = 
+| image_flag              = 
+| flag_alt                = 
+| image_seal              = 
+| seal_alt                = 
+| image_shield            = 
+| shield_alt              = 
+| nickname                = 
+| motto                   = 
+| image_map               = Aksaray Turkey Provinces locator.gif
+| map_alt                 = 
+| map_caption             = 
+| image_map1              = Aksaray districts.png 
+| mapsize1                =
+| map_alt1                =
+| map_caption1            = شهرستان‌های استان آق‌سرای
+| pushpin_map             = 
+| pushpin_label_position  = 
+| pushpin_map_alt         = 
+| pushpin_map_caption     = 
+| latd  =  |latm  =  |lats  =  |latNS  = N
+| longd =  |longm =  |longs =  |longEW = E
+| coor_pinpoint           = 
+| coordinates_type        = 
+| coordinates_display     = inline,title
+| coordinates_footnotes   = 
+| subdivision_type        = [[فهرست کشورهای جهان|کشور]]
+| subdivision_name        = {{TUR}}
+| subdivision_type1       = ناحیه
+| subdivision_name1       = [[ناحیه آناتولی مرکزی|آناتولی مرکزی]]
+| subdivision_type2       =  
+| subdivision_name2       = 
+| subdivision_type3       = 
+| subdivision_name3       = 
+| established_title       = 
+| established_date        = 
+| founder                 = 
+| seat_type               = [[فهرست شهرهای ترکیه|مرکز]]
+| seat                    = [[آق‌سرای]]
+| government_footnotes    = 
+| leader_party            = 
+| leader_title            =  فرماندار 
+| leader_name             = Selami ALTINOK
+| unit_pref               = Metric&lt;!-- or US or UK --&gt;
+| area_footnotes          = 
+| area_total_km2          = 7,626 
+| area_land_km2           = 
+| area_water_km2          = 
+| area_water_percent      = 
+| area_note               = 
+| elevation_footnotes     = 
+| elevation_m             = 
+| population_footnotes    = 
+| population_total        = 377,505
+| population_as_of        = ۲۰۱۰
+| population_density_km2  = auto
+| population_demonym      = 
+| population_note         = 
+| timezone1               = 
+| utc_offset1             = 
+| timezone1_DST           = 
+| utc_offset1_DST         = 
+| postal_code_type        =  [[کد پستی]]
+| postal_code             = 
+| area_code_type          = 
+| area_code               = ۰۳۸۲
+| registration_plate      = ۶۸
+| iso_code                = TR-68
+| website                 = {{URL|http://www.aksaray.gov.tr//}} 
+| footnotes               = 
+}}
+
+
+'''آق‌سرای''' یکی از استان‌های [[ترکیه]] است که مرکز آن هم شهر [[آق‌سرای]] است. استان‌های همجوار آن عبارتند از: [[استان قونیه|قونیه]] در غرب و جنوب، [[استان نیغده|نیغده]] در جنوب شرقی و [[استان قرشهر|قرشهر]] در شمال.
+
+[[پرونده:Aksaray Turkey Provinces locator.jpg|بندانگشتی|راست|300px|محل استان آق‌سرای.]]
+
+{{-}}
+== »نبع ==
+{{ویکی‌انبار-رده|Aksaray Province}}
+* {{یادکرد-ویکی
+|پیوند=https://en.wikipedia.org/w/index.php?title=Aksaray_Province&amp;oldid=542015261
+|عنوان=Aksaray Province
+|زبان=انگلیسی
+|بازیابی=۸ ژانویه ۲۰۱۴}}
+{{استان‌های ترکیه}}
+{{ترکیه-خرد}}
+[[رده:استان آق‌سرای]]
+[[رده:استان‌های ترکیه|آق‌سرای]]</text>
+      <sha1>k0u5z4pzh3pscourjvsq496pixt427q</sha1>
+    </revision>
+  </page>
+  

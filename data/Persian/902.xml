@@ -1,0 +1,27 @@
+<page>
+    <title>رده:تمیزکاری ویکی‌پدیا</title>
+    <ns>14</ns>
+    <id>5572</id>
+    <revision>
+      <id>16149927</id>
+      <parentid>11984279</parentid>
+      <timestamp>2015-11-05T18:10:15Z</timestamp>
+      <contributor>
+        <username>DbBot</username>
+        <id>264911</id>
+      </contributor>
+      <minor />
+      <comment>[[ویکی‌پدیا:سیاست ربات‌رانی/درخواست مجوز/DbBot/وظیفه ۱۴|ربات]]: افزودن [[الگو:رده ویکی‌پدیا]] همسنگ</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">{{رده ویکی‌پدیا|hidden=yes}}
+{{انبار-رده|Stubs}}
+
+[[رده:تمیزکاری مقاله‌های ویکی‌پدیا]]
+[[رده:پشته ویکی‌پدیا]]
+[[رده:رده‌های نگهداری ویکی‌پدیا که بر پایه ماه مرتب شده‌اند]]
+[[رده:نگهداری ویکی‌پدیا]]</text>
+      <sha1>9qa8de3pxrt5ezqbcy9cykgglcao3td</sha1>
+    </revision>
+  </page>
+  

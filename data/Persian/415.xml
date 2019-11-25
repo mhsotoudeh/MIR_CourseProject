@@ -1,0 +1,125 @@
+<page>
+    <title>استان قیصریه</title>
+    <ns>0</ns>
+    <id>4212</id>
+    <revision>
+      <id>16850871</id>
+      <parentid>16850831</parentid>
+      <timestamp>2016-04-06T23:43:36Z</timestamp>
+      <contributor>
+        <username>Kian</username>
+        <id>1509</id>
+      </contributor>
+      <minor />
+      <comment>/* ویرایش به وسیلهٔ [[وپ:ابرابزار|ابرابزار]] */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">{{coord|38|37|30|N|35|49|57|E|region:TR-38_type:adm1st|display=title}}
+{{Infobox settlement
+&lt;!-- See Template:Infobox settlement for additional fields and descriptions --&gt;
+| name                    = استان قیصریه
+| native_name             =
+| native_name_lang        = &lt;!-- ISO 639-2 code e.g. "fr" for French. If more than one, use {{lang}} instead --&gt;
+| settlement_type         = [[فهرست استان‌های ترکیه|استان]]
+| image_skyline           =
+| image_alt               =
+| image_caption           =
+| image_flag              =Flag of Palombia.svg
+| flag_alt                =
+| image_seal              =
+| seal_alt                =
+| image_shield            =
+| shield_alt              =
+| nickname                =
+| motto                   =
+| image_map               = Kayseri Turkey Provinces locator.gif
+| map_alt                 =
+| map_caption             =
+| image_map1              =Kayseri districts.png
+| mapsize1                =
+| map_alt1                =
+| map_caption1            =
+| pushpin_map             =
+| pushpin_label_position  =
+| pushpin_map_alt         =
+| pushpin_map_caption     =
+| latd  = |latm  = |lats  = |latNS  = N
+| longd = |longm = |longs = |longEW = E
+| coor_pinpoint           =
+| coordinates_type        =
+| coordinates_display     = inline,title
+| coordinates_footnotes   =
+| subdivision_type        = [[فهرست کشورهای جهان|کشور]]
+| subdivision_name        = {{TUR}}
+| subdivision_type1       = ناحیه
+| subdivision_name1       = [[ناحیه آناتولی مرکزی|آناتولی مرکزی]]
+| subdivision_type2       =
+| subdivision_name2       =
+| subdivision_type3       =
+| subdivision_name3       =
+| established_title       =
+| established_date        =
+| founder                 =
+| seat_type               = [[فهرست شهرهای ترکیه|مرکز]]
+| seat                    = [[قیصریه (شهر)|قیصریه]]
+| government_footnotes    =
+| leader_party            =
+| leader_title            = فرماندار
+| leader_name             =
+| unit_pref               = Metric&lt;!-- or US or UK --&gt;
+| area_footnotes          =
+| area_total_km2          =
+| area_land_km2           =
+| area_water_km2          =
+| area_water_percent      =
+| area_note               =
+| elevation_footnotes     =
+| elevation_m             =
+| population_footnotes    =
+| population_total        =
+| population_as_of        = ۲۰۱۰
+| population_density_km2  = auto
+| population_demonym      =
+| population_note         =
+| timezone1               = EET
+| utc_offset1             = ۲+
+| timezone1_DST           = EEST
+| utc_offset1_DST         = ۳+
+| postal_code_type        = [[کد پستی]]
+| postal_code             =
+| area_code_type          =
+| area_code               =
+| iso_code                =
+| registration_plate      =
+| website                 =
+| footnotes               =
+}}
+
+نام یکی از استان‌های [[ترکیه]] است که مرکز آن هم شهری است به همین نام.
+
+== نگارخانه ==
+&lt;gallery&gt;
+Image:Kayseri'deki Erciyes dağı ve Bürüngüz camii.JPG|&lt;!--Mount Erciyes and the Bürüngüz mosque--&gt;
+Image:Sahabiye medresesi (gece).JPG|&lt;!--The [[مدرسه (روستا)]] of Sahabiye in Kayseri--&gt;
+&lt;/gallery&gt;
+
+[[پرونده:Kayseri_Turkey_Provinces_locator.jpg|بندانگشتی|300px|راست|محل استان قیصریه]]
+
+{{-}}
+
+== منابع ==
+{{ویکی‌انبار-رده|Kayseri Province}}
+* {{یادکرد-ویکی
+|پیوند=https://en.wikipedia.org/w/index.php?title=Kayseri_Province&amp;oldid=584644923
+|عنوان=Kayseri Province
+|زبان=انگلیسی
+|بازیابی=۲۸ ژانویه ۲۰۱۴}}
+
+{{ترکیه-خرد}}
+{{استان‌های ترکیه}}
+[[رده:استان قیصریه]]
+[[رده:استان‌های ترکیه]]</text>
+      <sha1>3lx25l4rpalv5au0c0i6eeyb15l89rm</sha1>
+    </revision>
+  </page>
+  

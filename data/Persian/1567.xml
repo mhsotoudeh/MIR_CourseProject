@@ -1,0 +1,21 @@
+<page>
+    <title>برونئي</title>
+    <ns>0</ns>
+    <id>7147</id>
+    <redirect title="برونئی" />
+    <revision>
+      <id>25701</id>
+      <timestamp>2005-06-05T23:42:02Z</timestamp>
+      <contributor>
+        <username>Invalid username 309~fawiki</username>
+        <id>309</id>
+      </contributor>
+      <comment>برونئي به برونئی منتقل شد</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">#REDIRECT [[برونئی]]
+</text>
+      <sha1>28zc9b24gimeaf2k13uf1yhh3sll001</sha1>
+    </revision>
+  </page>
+  

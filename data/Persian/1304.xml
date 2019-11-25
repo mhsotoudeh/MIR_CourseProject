@@ -1,0 +1,22 @@
+<page>
+    <title>شوینده‌ها</title>
+    <ns>0</ns>
+    <id>6653</id>
+    <redirect title="فهرست وسایل شستشو" />
+    <revision>
+      <id>231343</id>
+      <parentid>25267</parentid>
+      <timestamp>2006-07-10T11:23:28Z</timestamp>
+      <contributor>
+        <username>Elessar</username>
+        <id>6031</id>
+      </contributor>
+      <minor />
+      <comment>ربات: تصحیح مسیر دوتایی</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">#REDIRECT [[فهرست وسایل شستشو]]</text>
+      <sha1>dpkedr83dckjssusf9e8zhrv9hhxk5b</sha1>
+    </revision>
+  </page>
+  

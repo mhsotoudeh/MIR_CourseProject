@@ -1,0 +1,135 @@
+<page>
+    <title>بریج‌تاون</title>
+    <ns>0</ns>
+    <id>6887</id>
+    <revision>
+      <id>13380535</id>
+      <parentid>11863146</parentid>
+      <timestamp>2014-10-05T10:55:12Z</timestamp>
+      <contributor>
+        <username>Dexbot</username>
+        <id>279395</id>
+      </contributor>
+      <minor />
+      <comment>ربات: افزودن الگوی ویکی‌سفر</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">{{Infobox settlement
+&lt;!-- See Template:Infobox settlement for additional fields and descriptions --&gt;
+| name                    = بریج‌تاون
+| native_name             = Bridgetown
+| native_name_lang        = &lt;!-- ISO 639-2 code e.g. "fr" for French. If more than one, use {{lang}} instead --&gt;
+| settlement_type         = 
+| image_skyline           = Bridgetown2.jpg
+| image_alt               = 
+| image_caption           = چشم‌انداز حومه بریج‌تاون
+| image_flag              = 
+| flag_alt                = 
+| image_seal              = City of Bridgetown, Barbados Armorial bearing.jpg
+| seal_alt                = 
+| image_shield            = 
+| shield_alt              = 
+| nickname                = 
+| motto                   = 
+| image_map               = Bridgetown.png
+| map_alt                 = 
+| map_caption             = 
+| pushpin_map             = 
+| pushpin_label_position  = 
+| pushpin_map_alt         = 
+| pushpin_map_caption     = 
+| latd  = 13.106 |latm  =  |lats  =  |latNS  = N
+| longd = 59.632 |longm =  |longs =  |longEW = W
+| coor_pinpoint           = 
+| coordinates_type        = 
+| coordinates_display     = inline,title
+| coordinates_footnotes   = 
+| subdivision_type        = [[فهرست کشورهای جهان|کشور]]
+| subdivision_name        = {{BRB}}
+| subdivision_type1       = ناحیه
+| subdivision_name1       = [[سنت میشل]]
+| subdivision_type2       = 
+| subdivision_name2       = 
+| subdivision_type3       = 
+| subdivision_name3       = 
+| established_title       = تاسیس
+| established_date        = ۱۶۲۸
+| founder                 = 
+| seat_type               = 
+| seat                    = 
+| government_footnotes    = 
+| leader_party            = 
+| leader_title            = شهردار
+| leader_name             = 
+| unit_pref               = Metric&lt;!-- or US or UK --&gt;
+| area_footnotes          = 
+| area_total_km2          = 38.8
+| area_land_km2           = 
+| area_water_km2          = 
+| area_water_percent      = 
+| area_note               = 
+| elevation_footnotes     = 
+| elevation_m             = 3
+| population_footnotes    = 
+| population_total        = 96,578
+| population_as_of        = ۲۰۰۶
+| population_density_km2  = auto
+| population_demonym      = 
+| population_note         = 
+| timezone1               = Eastern Caribbean Time Zone
+| utc_offset1             = ۴-
+| timezone1_DST           = 
+| utc_offset1_DST         = 
+| postal_code_type        = 
+| postal_code             = 
+| area_code_type          = 
+| area_code               = ۲۴۶
+| iso_code                = 
+| website                 = &lt;!-- {{URL|example.com}} --&gt;
+| footnotes               = 
+}}
+		
+
+'''بریج‌تاون''' پایتخت کشور [[باربادوس]] در [[آمریکای شمالی]] است.
+
+== تاریخ ==
+
+محل کنونی شهر در سال ۱۶۲۸ از سوی بریتانیایی‌ها بنیاد شد.
+
+بریتانیایی‌ها پس از استقرار در [[جیمزتاون (ویرجینیا)|جیمزتاون]]، بریج‌تاون را نیز بنیاد کردند.
+
+== جمعیت ==
+جمعیت این شهر ۹۶۵۷۸ نفر است (سال ۲۰۰۶).
+
+== اقتصاد و هنر ==
+بریج‌تاون از مراکز عمده گردشگری در [[هند غربی]] (در [[دریای کارائیب]]) و از مراکز مالی و همایشی ناحیه کارائیب است.
+
+بریج‌تاون ژانویه هر سال میزبان [[جشنواره جاز باربادوس]] است.
+
+== منابع ==
+{{پانویس}}
+{{ویکی‌سفر}}
+{{ویکی‌انبار-رده|Bridgetown}}
+
+Wikipedia contributors، "Bridgetown،" Wikipedia، The Free Encyclopedia، http://en.wikipedia.org/w/index.php?title=Bridgetown&amp;oldid=180976911 (accessed January 8، 2008).
+
+{{پایتخت‌های آمریکای شمالی و مرکزی}}
+
+{{جغرافیا-خرد}}
+
+[[رده:بریج‌تاون]]
+[[رده:باربادوس]]
+[[رده:پایتخت‌های آمریکای شمالی]]
+[[رده:پایتخت‌های منطقه کارائیب]]
+[[رده:شهرهای بندری در کارائیب]]
+[[رده:مناطق شهری بر پایه کشور باربادوس]]
+[[رده:مناطق مسکونی بندری آمریکای شمالی]]
+[[رده:مناطق مسکونی بنیان‌گذاری‌شده در ۱۶۲۸ (میلادی)]]
+[[رده:مناطق مسکونی بنیان‌گذاری‌شده در سده ۱۷ (میلادی)]]
+[[رده:مناطق مسکونی در باربادوس]]
+[[رده:مناطق مسکونی ساحلی در باربادوس]]
+[[رده:میراث جهانی یونسکو در باربادوس]]</text>
+      <sha1>d80g565e614ha0n0e8fftc0dd7tke9a</sha1>
+    </revision>
+  </page>
+  
