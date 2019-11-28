@@ -26,5 +26,4 @@ elif language == 'Persian':
 
     for i in range(len(root)):
         el = root[i]
-
         ElementTree(el).write(open('data/Persian/' + str(i) + '.xml', 'wb'), encoding='utf-8')

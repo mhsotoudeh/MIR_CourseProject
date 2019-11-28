@@ -2,7 +2,9 @@ import xml.etree.ElementTree as ET
 from hazm import *
 from nltk import RegexpTokenizer, PorterStemmer
 from nltk.corpus import stopwords
+
 english_stop_words = set(stopwords.words('english'))
+
 
 # import nltk
 # nltk.download('punkt')
@@ -60,14 +62,10 @@ elif language == 'Persian':
     normalizer = Normalizer()
     normalizer.normalize(title)
 
-
     # Step 2: Remove Punctuation
-
 
     # Step 3: Remove Stopwords
 
-
     # Step 4: Stemming
-
 
     pass
