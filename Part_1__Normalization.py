@@ -21,6 +21,25 @@ def remove_english_stopwords(tokenized_text):
     return [t for t in tokenized_text if t not in english_stop_words]
 
 
+def normalize_english(text):
+    # Step 1: Tokenization and Remove Punctuation
+    tokenizer = RegexpTokenizer('\w+')
+    tokenized_text = tokenizer.tokenize(text.lower())
+
+    # Step 2: Remove Stopwords
+    tokenized_text = remove_english_stopwords(tokenized_text)
+
+    # Step 3: Stemming
+    stemmer = PorterStemmer()
+    stemmed_text = [stemmer.stem(t) for t in tokenized_text]
+
+    return stemmed_text
+
+
+def normalize_persian(text):
+    pass
+
+
 language = 'English'
 
 if language == 'English':
@@ -33,19 +52,8 @@ if language == 'English':
     text_index = get_tag_index(root, 'text')
     text = root[text_index].text
 
-    # Step 1: Tokenization and Remove Punctuation
-    tokenizer = RegexpTokenizer('\w+')
-    tokenized_title = tokenizer.tokenize(title.lower())
-    tokenized_text = tokenizer.tokenize(text.lower())
-
-    # Step 2: Remove Stopwords
-    tokenized_title = remove_english_stopwords(tokenized_title)
-    tokenized_text = remove_english_stopwords(tokenized_text)
-
-    # Step 3: Stemming
-    stemmer = PorterStemmer()
-    stemmed_title = [stemmer.stem(t) for t in tokenized_title]
-    stemmed_text = [stemmer.stem(t) for t in tokenized_text]
+    normalized_title = normalize_english(title)
+    normalized_text = normalize_english(text)
 
 
 elif language == 'Persian':

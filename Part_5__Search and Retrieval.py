@@ -1,17 +1,13 @@
 import numpy as np
 
 
-class DocVector:
-    def __init__(self, dim):
-        vector = []
-
-
 def normalize_rows(matrix):
     return matrix / np.linalg.norm(matrix, ord=2, axis=1, keepdims=True)
 
 
 # doc = ['akbar', 'be', 'lazy', 'go', 'swim', 'july']
 
+query_type = 'normal' # Or 'proximity'
 query = 'akbar is bad'
 proximity_query = 'akbar is bad', 5
 
@@ -31,7 +27,8 @@ normalized_doc_term_matrix = normalize_rows(doc_term_matrix)
 
 
 # Preprocess Query
-
+if query_type == 'normal':
+    query =
 
 # Find Query Vector
 query_vector = np.zeros(shape=(1, terms_count))
