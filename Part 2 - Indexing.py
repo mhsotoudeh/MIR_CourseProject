@@ -2,7 +2,6 @@ import json
 
 
 class PositionalPostingNode:
-
     def __init__(self, trie_node, doc_id, position, prev=None):
         self.trie_node = trie_node
         self.doc_id = doc_id
