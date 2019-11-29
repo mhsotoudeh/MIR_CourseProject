@@ -43,7 +43,7 @@ for i in range(len(normalized_doc_term_matrix)):
     scores.append(score)
 
 # Sort and Give Results
-zipped_pairs = zip(scores, docs_list)
+zipped_pairs = zip(scores, doc_id_list)
 search_result = [x for _, x in sorted(zipped_pairs)]
 search_result.reverse()
 
