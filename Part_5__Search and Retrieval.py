@@ -1,4 +1,11 @@
 import numpy as np
+import Part_1__Normalization as nrm
+
+
+class ProximityQuery:
+    def __init__(self, query, window_size):
+        self.query = query
+        self.window_size = window_size
 
 
 def normalize_rows(matrix):
@@ -9,7 +16,7 @@ def normalize_rows(matrix):
 
 query_type = 'normal' # Or 'proximity'
 query = 'akbar is bad'
-proximity_query = 'akbar is bad', 5
+proximity_query = ProximityQuery('akbar is bad', 5)
 
 terms_count = 100
 docs_count = 10
@@ -28,7 +35,11 @@ normalized_doc_term_matrix = normalize_rows(doc_term_matrix)
 
 # Preprocess Query
 if query_type == 'normal':
-    query =
+    query = nrm.normalize_english(query)
+    # query enhancement
+elif query_type == 'proximity':
+    proximity_query.query = nrm.normalize_english(proximity_query.query)
+    # query enhancement
 
 # Find Query Vector
 query_vector = np.zeros(shape=(1, terms_count))
