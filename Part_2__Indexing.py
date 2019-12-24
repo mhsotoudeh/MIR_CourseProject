@@ -328,8 +328,10 @@ for idx in range(len(tokenized_text)):
 
 store_file = open('store_file', 'w', encoding='utf8')
 trie_dict = trie.to_dict()
+print(trie_dict)
 json.dump(trie_dict, store_file, ensure_ascii=False)
 store_file.close()
+
 print(trie.get_postings_list('justo'))
 print('before compression:', os.stat('store_file').st_size)
 
@@ -340,102 +342,103 @@ print('before compression:', os.stat('store_file').st_size)
 # store_file.close()
 
 # Encoding
-store_file = open('store_file_compressed', 'wb')
-store_file.write(b'{')
-for word in trie_dict:
-    store_file.write(b'"')
-    store_file.write(word.encode('utf8'))
-    store_file.write(b'":{')
+# store_file = open('store_file_compressed', 'wb')
+# store_file.write(b'{')
+# for word in trie_dict:
+#     store_file.write(b'"')
+#     store_file.write(word.encode('utf8'))
+#     store_file.write(b'":{')
+#
+#     for doc in trie_dict[word]:
+#         store_file.write(b'"')
+#         store_file.write(bytes([int(doc)]))
+#         store_file.write(b'":[')
+#
+#         gaps = ic.numbers_to_gaps(trie_dict[word][doc])
+#
+#         # Gamma Code
+#         # encoded = '1' + ic.encode_gamma_sequence(gaps)
+#         # Variable Byte
+#         encoded = '1' + ic.encode_vb_sequence(gaps)
+#
+#         bytes_required = int(len(encoded) / 8) + 1
+#         store_file.write(bytes_required.to_bytes(1, 'big'))
+#         store_file.write(int(encoded, 2).to_bytes(bytes_required, 'big'))
+#
+#         store_file.write(b']')
+#     store_file.write(b'},')
+# store_file.write(b'}')
+# store_file.close()
 
-    for doc in trie_dict[word]:
-        store_file.write(b'"')
-        store_file.write(bytes([int(doc)]))
-        store_file.write(b'":[')
-
-        gaps = ic.numbers_to_gaps(trie_dict[word][doc])
-
-        # Gamma Code
-        # encoded = '1' + ic.encode_gamma_sequence(gaps)
-        # Variable Byte
-        encoded = '1' + ic.encode_vb_sequence(gaps)
-
-        bytes_required = int(len(encoded) / 8) + 1
-        store_file.write(bytes_required.to_bytes(1, 'big'))
-        store_file.write(int(encoded, 2).to_bytes(bytes_required, 'big'))
-
-        store_file.write(b']')
-    store_file.write(b'},')
-store_file.write(b'}')
-store_file.close()
+ic.encode(trie_dict)
 len_compressed = os.stat('store_file_compressed').st_size
 print('after compression:', len_compressed)
 
 # Decoding
-store_file = open('store_file_compressed', 'rb')
-decoded_str = ''
-decoded_str += store_file.read(1).decode('utf8')
-while True:
-    # Reading "
-    decoded_str += store_file.read(1).decode('utf8')
-
-    # Reading a word
-    decoded_char = store_file.read(1).decode('utf8')
-    decoded_str += decoded_char
-    while decoded_char != '"':
-        decoded_char = store_file.read(1).decode('utf8')
-        decoded_str += decoded_char
-    # End of reading a word
-
-    # Reading :{"
-    decoded_str += store_file.read(3).decode('utf8')
-
-    # Reading doc id
-    encoded_char = store_file.read(1)
-    encoded_seq = encoded_char
-    while encoded_char.decode('utf8') != '"':
-        encoded_char = store_file.read(1)
-        encoded_seq += encoded_char
-    decoded_str += str(int.from_bytes(encoded_seq[:-1], 'big'))
-    decoded_str += encoded_char.decode('utf8')
-    # End of reading doc id
-
-    # Reading :[
-    decoded_str += store_file.read(1).decode('utf8')
-    store_file.read(1).decode('utf8')
-
-    # Reading position list
-    encoded_char = store_file.read(1)
-    encoded_seq = b''
-    for i in range(int.from_bytes(encoded_char, 'big')):
-        encoded_char = store_file.read(1)
-        encoded_seq += encoded_char
-    decoded_str += '['
-
-    # Gamma Code
-    # gaps = ic.decode_gamma_sequence("{0:b}".format(int.from_bytes(encoded_seq, 'big'))[1:])
-    # Variable Byte
-    gaps = ic.decode_vb_sequence("{0:b}".format(int.from_bytes(encoded_seq, 'big'))[1:])
-
-    for number in ic.gaps_to_numbers(gaps):
-        decoded_str += str(number) + ','
-    decoded_str = decoded_str[:-1]
-    decoded_str += ']'
-    encoded_char = store_file.read(1)
-    # End of reading position list
-    decoded_str += store_file.read(2).decode()
-    decoded_char = store_file.read(1).decode()
-    if decoded_char == '}':
-        decoded_str += decoded_char
-        break
-    elif decoded_char == '"':
-        store_file.seek(store_file.tell() - 1)
-    else:
-        print('wrong input')
-        exit(-666)
-decoded_str = decoded_str[:-2] + decoded_str[-1]
-print('decoded:', decoded_str)
-trie_d = TrieNode.from_dict(json.loads(decoded_str))
+# store_file = open('store_file_compressed', 'rb')
+# decoded_str = ''
+# decoded_str += store_file.read(1).decode('utf8')
+# while True:
+#     # Reading "
+#     decoded_str += store_file.read(1).decode('utf8')
+#
+#     # Reading a word
+#     decoded_char = store_file.read(1).decode('utf8')
+#     decoded_str += decoded_char
+#     while decoded_char != '"':
+#         decoded_char = store_file.read(1).decode('utf8')
+#         decoded_str += decoded_char
+#     # End of reading a word
+#
+#     # Reading :{"
+#     decoded_str += store_file.read(3).decode('utf8')
+#
+#     # Reading doc id
+#     encoded_char = store_file.read(1)
+#     encoded_seq = encoded_char
+#     while encoded_char.decode('utf8') != '"':
+#         encoded_char = store_file.read(1)
+#         encoded_seq += encoded_char
+#     decoded_str += str(int.from_bytes(encoded_seq[:-1], 'big'))
+#     decoded_str += encoded_char.decode('utf8')
+#     # End of reading doc id
+#
+#     # Reading :[
+#     decoded_str += store_file.read(1).decode('utf8')
+#     store_file.read(1).decode('utf8')
+#
+#     # Reading position list
+#     encoded_char = store_file.read(1)
+#     encoded_seq = b''
+#     for i in range(int.from_bytes(encoded_char, 'big')):
+#         encoded_char = store_file.read(1)
+#         encoded_seq += encoded_char
+#     decoded_str += '['
+#
+#     # Gamma Code
+#     # gaps = ic.decode_gamma_sequence("{0:b}".format(int.from_bytes(encoded_seq, 'big'))[1:])
+#     # Variable Byte
+#     gaps = ic.decode_vb_sequence("{0:b}".format(int.from_bytes(encoded_seq, 'big'))[1:])
+#
+#     for number in ic.gaps_to_numbers(gaps):
+#         decoded_str += str(number) + ','
+#     decoded_str = decoded_str[:-1]
+#     decoded_str += ']'
+#     encoded_char = store_file.read(1)
+#     # End of reading position list
+#     decoded_str += store_file.read(2).decode()
+#     decoded_char = store_file.read(1).decode()
+#     if decoded_char == '}':
+#         decoded_str += decoded_char
+#         break
+#     elif decoded_char == '"':
+#         store_file.seek(store_file.tell() - 1)
+#     else:
+#         print('wrong input')
+#         exit(-666)
+# decoded_str = decoded_str[:-2] + decoded_str[-1]
+# print('decoded:', decoded_str)
+# store_file.close()
+trie_d = TrieNode.from_dict(json.loads(ic.decode()))
 print('checking')
 print(trie_d.get_postings_list('justo'))
-
-store_file.close()
