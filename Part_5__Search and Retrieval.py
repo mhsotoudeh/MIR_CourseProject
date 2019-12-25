@@ -1,5 +1,6 @@
 import numpy as np
 import Part_1__Normalization as nrm
+import Part_2__Indexing as idx
 
 
 class ProximityQuery:
@@ -58,6 +59,8 @@ def proximity_search(tokenized_query, query, window):
     # Search Between Valid Documents and Return Results and Scores
     results, scores = normal_search(query, valid_documents, valid_document_ids)
     return results, scores
+
+# Load docs trie
 
 
 # doc = ['akbar', 'be', 'lazy', 'go', 'swim', 'july']

@@ -439,6 +439,7 @@ print('after compression:', len_compressed)
 # decoded_str = decoded_str[:-2] + decoded_str[-1]
 # print('decoded:', decoded_str)
 # store_file.close()
+
 trie_d = TrieNode.from_dict(json.loads(ic.decode()))
 print('checking')
 print(trie_d.get_postings_list('justo'))

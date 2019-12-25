@@ -1,14 +1,14 @@
 import xml.etree.ElementTree as ET
 from hazm import *
-from nltk import RegexpTokenizer, PorterStemmer
-from nltk.corpus import stopwords
-
-english_stop_words = set(stopwords.words('english'))
-
-
 # import nltk
 # nltk.download('punkt')
 # nltk.download('stopwords')
+from nltk import RegexpTokenizer, PorterStemmer
+from nltk.corpus import stopwords
+import json
+import os
+
+english_stop_words = set(stopwords.words('english'))
 
 
 def get_tag_index(root, tag):
@@ -37,38 +37,10 @@ def normalize_english(text):
 
 
 def normalize_persian(text):
-    pass
-
-
-language = 'English'
-
-if language == 'English':
-    documents = ET.parse('test.xml')
-    root = documents.getroot()
-
-    title_index = get_tag_index(root, 'title')
-    title = root[title_index].text
-
-    text_index = get_tag_index(root, 'text')
-    text = root[text_index].text
-
-    normalized_title = normalize_english(title)
-    normalized_text = normalize_english(text)
-
-
-elif language == 'Persian':
-    documents = ET.parse('test.xml')
-    root = documents.getroot()
-
-    title_index = get_tag_index(root, 'title')
-    title = root[title_index].text
-
-    text_index = get_tag_index(root, 'text')
-    text = root[text_index].text
-
     # Step 1: Normalization and Tokenization
     normalizer = Normalizer()
-    normalizer.normalize(title)
+    normalizer.normalize(text)
+    tokenized_text = word_tokenize(text)
 
     # Step 2: Remove Punctuation
 
@@ -76,4 +48,53 @@ elif language == 'Persian':
 
     # Step 4: Stemming
 
-    pass
+    return tokenized_text
+
+
+language = 'English'
+
+if language == 'English':
+    dir = 'data/00 English/'
+    savedir = 'data/01 English/'
+    num_of_files = len([name for name in os.listdir(dir) if os.path.isfile(os.path.join(dir, name))])
+
+    for i in range(num_of_files):
+        document = ET.parse(dir + str(i) + '.xml')
+        root = document.getroot()
+
+        title_index = get_tag_index(root, 'title')
+        title = root[title_index].text
+
+        text_index = get_tag_index(root, 'text')
+        text = root[text_index].text
+
+        normalized_title = normalize_english(title)
+        normalized_text = normalize_english(text)
+
+        output_dict = {}
+        output_dict['title'] = normalized_title
+        output_dict['text'] = normalized_text
+
+        destination = savedir + str(i) + '.json'
+        with open(destination, 'w') as json_file:
+            json.dump(output_dict, json_file)
+
+
+elif language == 'Persian':
+    document = ET.parse('testfa.xml')
+    root = document.getroot()
+
+    title_index = get_tag_index(root, 'title')
+    title = root[title_index].text
+
+    text_index = get_tag_index(root, 'text')
+    text = root[text_index].text
+
+    normalized_title = normalize_persian(title)
+    normalized_text = normalize_persian(text)
+
+    print(normalized_title)
+    print(normalized_text)
+
+    stemmer = Stemmer()
+    print(stemmer.stem(text))
