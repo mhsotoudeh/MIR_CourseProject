@@ -51,15 +51,38 @@ def normalize_persian(text):
     return tokenized_text
 
 
-language = 'English'
+if __name__ == "__main__":
+    language = 'English'
 
-if language == 'English':
-    dir = 'data/00 English/'
-    savedir = 'data/01 English/'
-    num_of_files = len([name for name in os.listdir(dir) if os.path.isfile(os.path.join(dir, name))])
+    if language == 'English':
+        dir = 'data/00 English/'
+        savedir = 'data/01 English/'
+        num_of_files = len([name for name in os.listdir(dir) if os.path.isfile(os.path.join(dir, name))])
 
-    for i in range(num_of_files):
-        document = ET.parse(dir + str(i) + '.xml')
+        for i in range(num_of_files):
+            document = ET.parse(dir + str(i) + '.xml')
+            root = document.getroot()
+
+            title_index = get_tag_index(root, 'title')
+            title = root[title_index].text
+
+            text_index = get_tag_index(root, 'text')
+            text = root[text_index].text
+
+            normalized_title = normalize_english(title)
+            normalized_text = normalize_english(text)
+
+            output_dict = {}
+            output_dict['title'] = normalized_title
+            output_dict['text'] = normalized_text
+
+            destination = savedir + str(i) + '.json'
+            with open(destination, 'w') as json_file:
+                json.dump(output_dict, json_file)
+
+
+    elif language == 'Persian':
+        document = ET.parse('testfa.xml')
         root = document.getroot()
 
         title_index = get_tag_index(root, 'title')
@@ -68,33 +91,11 @@ if language == 'English':
         text_index = get_tag_index(root, 'text')
         text = root[text_index].text
 
-        normalized_title = normalize_english(title)
-        normalized_text = normalize_english(text)
+        normalized_title = normalize_persian(title)
+        normalized_text = normalize_persian(text)
 
-        output_dict = {}
-        output_dict['title'] = normalized_title
-        output_dict['text'] = normalized_text
+        print(normalized_title)
+        print(normalized_text)
 
-        destination = savedir + str(i) + '.json'
-        with open(destination, 'w') as json_file:
-            json.dump(output_dict, json_file)
-
-
-elif language == 'Persian':
-    document = ET.parse('testfa.xml')
-    root = document.getroot()
-
-    title_index = get_tag_index(root, 'title')
-    title = root[title_index].text
-
-    text_index = get_tag_index(root, 'text')
-    text = root[text_index].text
-
-    normalized_title = normalize_persian(title)
-    normalized_text = normalize_persian(text)
-
-    print(normalized_title)
-    print(normalized_text)
-
-    stemmer = Stemmer()
-    print(stemmer.stem(text))
+        stemmer = Stemmer()
+        print(stemmer.stem(text))

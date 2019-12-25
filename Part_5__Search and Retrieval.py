@@ -1,6 +1,10 @@
 import numpy as np
 import Part_1__Normalization as nrm
 import Part_2__Indexing as idx
+import Part_3__Index_Comperssion as ic
+import json
+import sys
+import math
 
 
 class ProximityQuery:
@@ -60,25 +64,33 @@ def proximity_search(tokenized_query, query, window):
     results, scores = normal_search(query, valid_documents, valid_document_ids)
     return results, scores
 
-# Load docs trie
 
-
-# doc = ['akbar', 'be', 'lazy', 'go', 'swim', 'july']
-
+# Determine search type
 search_type = 'normal' # Or 'proximity'
-query = 'akbar is bad'
+query = 'seek'
 proximity_query = ProximityQuery('akbar is bad', 5)
 
-terms_count = 100
-docs_count = 10
+# Load docs trie
+with open('store_file', 'r') as f:
+    input_dict = json.load(f)
+    trie = idx.TrieNode.from_dict(input_dict)
 
-dictionary = np.zeros(shape=(1, terms_count))
-doc_id_list = np.zeros(shape=(1, docs_count))
+dictionary, docs = trie.WORDS, list(trie.DOCS.keys())
+terms_count, docs_count = len(dictionary), len(docs)
 
 doc_term_matrix = np.zeros(shape=(docs_count, terms_count))
-
 # Filling the Matrix
+for term_idx in range(len(dictionary)):
+    postings_list = trie.get_postings_list(dictionary[term_idx])
+    df = len(postings_list)
 
+    for doc in postings_list:
+        doc_idx = docs.index(doc)
+        tf = len(postings_list[doc])
+        if tf == 0:
+            doc_term_matrix[doc_idx][term_idx] = 0
+        else:
+            doc_term_matrix[doc_idx][term_idx] = (1 + math.log(tf, 10)) * math.log(docs_count/df, 10)
 
 # Normalizing Document Vectors
 normalized_doc_term_matrix = normalize_rows(doc_term_matrix)
@@ -93,15 +105,25 @@ elif search_type == 'proximity':
     # query enhancement
 
 # Find Query Vector
-query_vector = np.zeros(shape=(1, terms_count))
+query_vector = np.zeros(terms_count)
+for term_idx in range(len(dictionary)):
+    postings_list = trie.get_postings_list(dictionary[term_idx])
+    df = len(postings_list)
+    tf = query.count(dictionary[term_idx])
+    if tf == 0:
+        query_vector[term_idx] = 0
+    else:
+        query_vector[term_idx] = 1 + math.log(tf, 10)
+
+normalized_query_vector = query_vector / np.linalg.norm(query_vector)
+
 
 # Search
 if search_type == 'normal':
-    results, scores = normal_search(query_vector, normalized_doc_term_matrix, doc_id_list)
+    results, scores = normal_search(query_vector, normalized_doc_term_matrix, docs)
 elif search_type == 'proximity':
     results, scores = proximity_search(proximity_query.query, query_vector, proximity_query.window_size)
 
-
-# For Test
-# test = np.array([ [1, 1, 0], [3, 3, 3], [5, 0, 5] ])
-# print(normalize_rows(test))
+print('Search results for ' + str(query) + ':')
+print(results)
+print(scores)

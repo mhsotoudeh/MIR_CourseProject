@@ -163,8 +163,8 @@ def encode(trie_dict):
         store_file.write(b'},')
     store_file.write(b'}')
     store_file.close()
-    len_compressed = os.stat('store_file_compressed').st_size
-    print('after compression:', len_compressed)
+    # len_compressed = os.stat('store_file_compressed').st_size
+    # print('after compression:', len_compressed)
     store_file.close()
 
 
