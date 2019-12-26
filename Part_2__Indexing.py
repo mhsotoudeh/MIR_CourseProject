@@ -267,13 +267,13 @@ if __name__ == "__main__":
         if cmd[0] == 'exit':
             break
 
-        elif cmd[0] == 'addfile':
+        elif cmd[0] == 'addfile':  # Example: addfile "data/Phase 1 - 01 English/file.json"
             last_slash = cmd[1].rfind('/')
             dir = cmd[1][:last_slash+1]
             filename = cmd[1][last_slash+1:-5]
             add_file(trie, dir, filename)
 
-        elif cmd[0] == 'adddir':
+        elif cmd[0] == 'adddir':  # Example: adddir "data/Phase 1 - 01 English"
             dir = cmd[1]
             if dir[-1] != '/':
                 dir += '/'

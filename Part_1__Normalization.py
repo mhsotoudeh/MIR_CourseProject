@@ -109,10 +109,10 @@ if __name__ == "__main__":
         if cmd[0] == 'exit':
             break
 
-        elif cmd[0] == 'chlang':
+        elif cmd[0] == 'chlang':  # Example: chlang persian
             language = cmd[1]
 
-        elif cmd[0] == 'add':
+        elif cmd[0] == 'add':  # Example: add "data/Phase 1 - 00 Persian" "data/Phase 1 - 01 Persian"
             dir, savedir = cmd[1], cmd[2]
             if dir[-1] != '/':
                 dir += '/'

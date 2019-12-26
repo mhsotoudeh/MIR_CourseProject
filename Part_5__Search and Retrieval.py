@@ -6,6 +6,7 @@ import sys
 import math
 import shlex
 
+
 class ProximityQuery:
     def __init__(self, query, window_size):
         self.query = query
@@ -30,10 +31,6 @@ def normal_search(query, docs, doc_ids):
     sorted_scores.sort(reverse=True)
 
     return search_result, sorted_scores
-
-
-def proximity_intersection():
-    pass
 
 
 def proximity_search(proximity_query, docs, doc_ids):
@@ -129,22 +126,22 @@ if __name__ == "__main__":
         if cmd[0] == 'exit':
             break
 
-        elif cmd[0] == 'addtrie':
+        elif cmd[0] == 'addtrie':  # Example: addtrie store_file
             dir = cmd[1]
             with open(dir, 'r') as f:
                 input_dict = json.load(f)
                 trie = idx.TrieNode.from_dict(input_dict)
 
-        elif cmd[0] == 'wgscheme':
+        elif cmd[0] == 'wgscheme':  # Example: wgscheme ltc lnc
             doc_vector_type = cmd[1]  # Default: ltc
             query_vector_type = cmd[2]  # Default: lnc
 
-        elif cmd[0] == 'vecspc':
+        elif cmd[0] == 'vecspc':  # Example: vecspc
             dictionary, doc_ids = np.array(trie.WORDS), np.array(list(trie.DOCS.keys()))
             terms_count, docs_count = len(dictionary), len(doc_ids)
             doc_term_matrix = get_doc_term_matrix(trie, doc_vector_type)
 
-        elif cmd[0] == 'search':
+        elif cmd[0] == 'search':  # Example: search normal "seek system" OR search proximity "seek system" 5
             search_type = cmd[1]  # normal or proximity
             query = cmd[2]
             if search_type == 'proximity':
