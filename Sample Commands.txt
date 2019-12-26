@@ -10,6 +10,10 @@ add "data/Phase 1 - 00 English" "data/Phase 1 - 01 English"
 Phase 1 Part 1 - Persian
 add "data/Phase 1 - 00 Persian" "data/Phase 1 - 01 Persian"
 
+Phase 1 Part 2
+adddir "data/Phase 1 - 01 English"
+adddir "D:/Education/SUT/Courses/Modern Information Retrieval/Project/test"
+
 ---------------------------------------------------------------------
 
 Phase 2 Part 0 - Train

@@ -10,6 +10,8 @@ import os
 import shlex
 
 english_stop_words = set(stopwords.words('english'))
+persian_punctuation = '.؟!"{}\[]/()'
+persian_stop_words = {'و', 'با', 'از', 'به', 'که', 'آیا'}
 
 
 def get_tag_index(root, tag):
@@ -20,6 +22,14 @@ def get_tag_index(root, tag):
 
 def remove_english_stopwords(tokenized_text):
     return [t for t in tokenized_text if t not in english_stop_words]
+
+
+def remove_persian_punctuation(tokenized_text):
+    return [t for t in tokenized_text if t not in persian_punctuation]
+
+
+def remove_persian_stopwords(tokenized_text):
+    return [t for t in tokenized_text if t not in persian_stop_words]
 
 
 def normalize_english(text):
@@ -40,14 +50,19 @@ def normalize_english(text):
 def normalize_persian(text):
     # Step 1: Normalization and Tokenization
     normalizer = Normalizer()
-    normalizer.normalize(text)
-    tokenized_text = word_tokenize(text)
+    normalized_text = normalizer.normalize(text)
+    tokenized_text = word_tokenize(normalized_text)
 
-    # Step 2: Remove Punctuation
+    # Step 2: Remove Punctuation and Stopwords
+    tokenized_text = remove_persian_punctuation(tokenized_text)
+    tokenized_text = remove_persian_stopwords(tokenized_text)
 
-    # Step 3: Remove Stopwords
-
-    # Step 4: Stemming
+    # Step 4: Stemming and Lemmatizing
+    stemmer = Stemmer()
+    lemmatizer = Lemmatizer()
+    for i in range(len(tokenized_text)):
+        stemmed_word = stemmer.stem(tokenized_text[i])
+        tokenized_text[i] = lemmatizer.lemmatize(stemmed_word)
 
     return tokenized_text
 
@@ -69,12 +84,6 @@ def parse_file(language, dir, id):
     elif language == 'persian':
         normalized_title = normalize_persian(title)
         normalized_text = normalize_persian(text)
-
-        print(normalized_title)
-        print(normalized_text)
-
-        stemmer = Stemmer()
-        print(stemmer.stem(text))
 
     output_dict = {'title': normalized_title, 'text': normalized_text}
     return output_dict

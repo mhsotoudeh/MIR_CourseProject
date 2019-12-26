@@ -141,6 +141,9 @@ if __name__ == "__main__":
             terms_count, docs_count = len(dictionary), len(doc_ids)
             doc_term_matrix = get_doc_term_matrix(trie, doc_vector_type)
 
+        elif cmd[0] == 'save':
+            np.savetxt('vecspc.txt', doc_term_matrix)
+
         elif cmd[0] == 'search':  # Example: search normal "seek system" OR search proximity "seek system" 5
             search_type = cmd[1]  # normal or proximity
             query = cmd[2]
