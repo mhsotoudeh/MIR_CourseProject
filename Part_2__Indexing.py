@@ -47,6 +47,9 @@ class PositionalPostingNode:
     def get_word_repetitions(self):
         return len(self.positions)
 
+    def __repr__(self):
+        return 'positions: ' + str(self.positions)
+
 
 class TrieNode:
     DOCS = dict()

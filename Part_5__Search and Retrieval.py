@@ -37,46 +37,45 @@ def proximity_intersection():
     pass
 
 
-def proximity_search(tokenized_query, query, window):
+def proximity_search(proximity_query, docs, doc_ids):
     # Find Docs with All Words Present
-    query_terms = np.array([])
-    for term in tokenized_query:
-        np.append(query_terms, np.where(dictionary == term))
+    query_term_indices = np.array([])
+    for term in proximity_query.query:
+        index = np.argwhere(dictionary == term)
+        if len(index) != 0:
+            query_term_indices = np.append(query_term_indices, index)
+    query_term_indices = query_term_indices.astype(int)
 
-    eligible_documents = []
-    eligible_document_ids = []
-    for i in range(normalized_doc_term_matrix):
-        row = normalized_doc_term_matrix[i]
+    if len(query_term_indices) < len(proximity_query.query):
+        return [], []
+
+    eligible_documents = np.array([])
+    eligible_document_ids = np.array([])
+    for i in range(len(docs)):
+        row = docs[i]
         eligible = True
-        for term in query_terms:
-            if row[term] == 0.0:
+        for idx in query_term_indices:
+            if row[idx] == 0:
                 eligible = False
+
+        # Find Docs with Words Inside the Window
+
         if eligible is True:
-            eligible_documents.append(row)
-            eligible_document_ids.append(i)
+            eligible_documents = np.append(eligible_documents, row)
+            eligible_document_ids = np.append(eligible_document_ids, doc_ids[i])
 
-    # Find Docs with Words Inside the Window
-    valid_documents = []
-    valid_document_ids = []
-    # Proximity Intersection
-
-    # Search Between Valid Documents and Return Results and Scores
-    results, scores = normal_search(query, valid_documents, valid_document_ids)
+    # Search Between Eligible Documents and Return Results and Scores
+    results, scores = normal_search(query, eligible_documents, eligible_document_ids)
     return results, scores
 
-
-# Determine search type
-search_type = 'normal' # Or 'proximity'
-query = 'seek'
-proximity_query = ProximityQuery('akbar is bad', 5)
 
 # Load docs trie
 with open('store_file', 'r') as f:
     input_dict = json.load(f)
     trie = idx.TrieNode.from_dict(input_dict)
 
-dictionary, docs = trie.WORDS, list(trie.DOCS.keys())
-terms_count, docs_count = len(dictionary), len(docs)
+dictionary, doc_ids = np.array(trie.WORDS), np.array(list(trie.DOCS.keys()))
+terms_count, docs_count = len(dictionary), len(doc_ids)
 
 doc_term_matrix = np.zeros(shape=(docs_count, terms_count))
 # Filling the Matrix
@@ -84,9 +83,9 @@ for term_idx in range(len(dictionary)):
     postings_list = trie.get_postings_list(dictionary[term_idx])
     df = len(postings_list)
 
-    for doc in postings_list:
-        doc_idx = docs.index(doc)
-        tf = len(postings_list[doc])
+    for doc_id in postings_list:
+        doc_idx = np.argwhere(doc_ids == doc_id)[0][0]
+        tf = len(postings_list[doc_id])
         if tf == 0:
             doc_term_matrix[doc_idx][term_idx] = 0
         else:
@@ -95,21 +94,21 @@ for term_idx in range(len(dictionary)):
 # Normalizing Document Vectors
 normalized_doc_term_matrix = normalize_rows(doc_term_matrix)
 
+# Determine search type
+search_type = 'proximity' # Or 'proximity'
+query = 'seek second'
+window = 5
 
 # Preprocess Query
-if search_type == 'normal':
-    query = nrm.normalize_english(query)
-    # query enhancement
-elif search_type == 'proximity':
-    proximity_query.query = nrm.normalize_english(proximity_query.query)
-    # query enhancement
+query = np.array(nrm.normalize_english(query))
+# query enhancement
 
 # Find Query Vector
 query_vector = np.zeros(terms_count)
 for term_idx in range(len(dictionary)):
     postings_list = trie.get_postings_list(dictionary[term_idx])
     df = len(postings_list)
-    tf = query.count(dictionary[term_idx])
+    tf = np.count_nonzero(query == dictionary[term_idx])
     if tf == 0:
         query_vector[term_idx] = 0
     else:
@@ -120,9 +119,10 @@ normalized_query_vector = query_vector / np.linalg.norm(query_vector)
 
 # Search
 if search_type == 'normal':
-    results, scores = normal_search(query_vector, normalized_doc_term_matrix, docs)
+    results, scores = normal_search(query_vector, normalized_doc_term_matrix, doc_ids)
 elif search_type == 'proximity':
-    results, scores = proximity_search(proximity_query.query, query_vector, proximity_query.window_size)
+    proximity_query = ProximityQuery(query, window)
+    results, scores = proximity_search(proximity_query, normalized_doc_term_matrix, doc_ids)
 
 print('Search results for ' + str(query) + ':')
 print(results)
