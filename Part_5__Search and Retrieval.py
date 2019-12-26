@@ -144,6 +144,7 @@ if __name__ == "__main__":
         elif cmd[0] == 'search':  # Example: search normal "seek system" OR search proximity "seek system" 5
             search_type = cmd[1]  # normal or proximity
             query = cmd[2]
+            window = math.inf
             if search_type == 'proximity':
                 window = cmd[3]
 
