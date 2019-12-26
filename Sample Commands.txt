@@ -1,0 +1,25 @@
+Phase 1 Part 0 - English
+add "data/raw/Phase 1 - English.csv" "data/Phase 1 - 00 English"
+
+Phase 1 Part 0 - Persian
+add "data/raw/Phase 1 - Persian.xml" "data/Phase 1 - 00 Persian"
+
+Phase 1 Part 1 - English
+add "data/Phase 1 - 00 English" "data/Phase 1 - 01 English"
+
+Phase 1 Part 1 - Persian
+add "data/Phase 1 - 00 Persian" "data/Phase 1 - 01 Persian"
+
+---------------------------------------------------------------------
+
+Phase 2 Part 0 - Train
+add_phase2 "data/raw/Phase 2 - Train.csv" "data/Phase 2 - 00 Train"
+
+Phase 2 Part 0 - Test
+add_phase2 "data/raw/Phase 2 - Test.csv" "data/Phase 2 - 00 Test"
+
+Phase 2 Part 1 - Train
+add_phase2 "data/Phase 2 - 00 Train" "data/Phase 2 - 01 Train"
+
+Phase 2 Part 1 - Test
+add_phase2 "data/Phase 2 - 00 Test" "data/Phase 2 - 01 Test"

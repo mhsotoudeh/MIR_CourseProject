@@ -253,6 +253,7 @@ def add_file(trie, dir, id):  # id is filename
             trie.add_word(word, id, position)
             position += 1
 
+
 if __name__ == "__main__":
     # Create Trie
     trie = TrieNode()
@@ -260,10 +261,13 @@ if __name__ == "__main__":
     # Read each document and add words
     dir = 'data/00 English/'
     while True:
-        cmd = input('Enter your command.\n')
+        cmd = input('Enter your command.\n').lower()
         cmd = shlex.split(cmd)
 
-        if cmd[0] == 'addfile':
+        if cmd[0] == 'exit':
+            break
+
+        elif cmd[0] == 'addfile':
             last_slash = cmd[1].rfind('/')
             dir = cmd[1][:last_slash+1]
             filename = cmd[1][last_slash+1:-5]
@@ -277,9 +281,6 @@ if __name__ == "__main__":
 
             for filename in filenames:
                 add_file(trie, dir, filename[:-5])
-
-        elif cmd[0] == 'exit':
-            break
 
     store_file = open('store_file', 'w', encoding='utf8')
     trie_dict = trie.to_dict()

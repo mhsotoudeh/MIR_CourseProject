@@ -1,0 +1,13 @@
+<page><title>الگو:Infobox Biography</title><text>{| class="toccolours" style="float:left; margin: 0 0 1em 1em; width:300px; text-align:center;" 
+|- 
+! colspan="2" style="font-size: larger; text-align:center;" | {{{نام موضوع}}} 
+|-  
+| colspan="2" style="text-align:center;" | [[پرونده:{{{نام تصویر}}}|none|200px|{{PAGENAME}}]] {{{image_caption}}} 
+|- 
+! '''زاده''' 
+| {{{تاریخ تولد}}}&lt;br /&gt;{{{مکان تولد}}} 
+|- 
+! '''مرگ''' 
+| {{{تاریخ مرگ}}}&lt;br /&gt;{{{مکان مرگ}}} 
+|}
+&lt;noinclude&gt;{{توضیحات}}&lt;/noinclude&gt;</text></page>

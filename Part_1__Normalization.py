@@ -7,6 +7,7 @@ from nltk import RegexpTokenizer, PorterStemmer
 from nltk.corpus import stopwords
 import json
 import os
+import shlex
 
 english_stop_words = set(stopwords.words('english'))
 
@@ -51,46 +52,21 @@ def normalize_persian(text):
     return tokenized_text
 
 
-if __name__ == "__main__":
-    language = 'English'
+def parse_file(language, dir, id):
+    document = ET.parse(dir + id + '.xml')
+    root = document.getroot()
 
-    if language == 'English':
-        dir = 'data/00 English/'
-        savedir = 'data/01 English/'
-        num_of_files = len([name for name in os.listdir(dir) if os.path.isfile(os.path.join(dir, name))])
+    title_index = get_tag_index(root, 'title')
+    title = root[title_index].text
 
-        for i in range(num_of_files):
-            document = ET.parse(dir + str(i) + '.xml')
-            root = document.getroot()
+    text_index = get_tag_index(root, 'text')
+    text = root[text_index].text
 
-            title_index = get_tag_index(root, 'title')
-            title = root[title_index].text
+    if language == 'english':
+        normalized_title = normalize_english(title)
+        normalized_text = normalize_english(text)
 
-            text_index = get_tag_index(root, 'text')
-            text = root[text_index].text
-
-            normalized_title = normalize_english(title)
-            normalized_text = normalize_english(text)
-
-            output_dict = {}
-            output_dict['title'] = normalized_title
-            output_dict['text'] = normalized_text
-
-            destination = savedir + str(i) + '.json'
-            with open(destination, 'w') as json_file:
-                json.dump(output_dict, json_file)
-
-
-    elif language == 'Persian':
-        document = ET.parse('testfa.xml')
-        root = document.getroot()
-
-        title_index = get_tag_index(root, 'title')
-        title = root[title_index].text
-
-        text_index = get_tag_index(root, 'text')
-        text = root[text_index].text
-
+    elif language == 'persian':
         normalized_title = normalize_persian(title)
         normalized_text = normalize_persian(text)
 
@@ -99,3 +75,69 @@ if __name__ == "__main__":
 
         stemmer = Stemmer()
         print(stemmer.stem(text))
+
+    output_dict = {'title': normalized_title, 'text': normalized_text}
+    return output_dict
+
+
+def parse_file_phase2(dir, id):
+    document = ET.parse(dir + id + '.xml')
+    root = document.getroot()
+
+    tag_index = get_tag_index(root, 'tag')
+    tag = root[tag_index].text
+
+    title_index = get_tag_index(root, 'title')
+    title = root[title_index].text
+
+    text_index = get_tag_index(root, 'text')
+    text = root[text_index].text
+
+    normalized_title = normalize_english(title)
+    normalized_text = normalize_english(text)
+
+    output_dict = {'tag': tag, 'title': normalized_title, 'text': normalized_text}
+    return output_dict
+
+
+if __name__ == "__main__":
+    language = input('Enter language.\n').lower()
+    while True:
+        cmd = input('Enter your command.\n').lower()
+        cmd = shlex.split(cmd)
+
+        if cmd[0] == 'exit':
+            break
+
+        elif cmd[0] == 'chlang':
+            language = cmd[1]
+
+        elif cmd[0] == 'add':
+            dir, savedir = cmd[1], cmd[2]
+            if dir[-1] != '/':
+                dir += '/'
+            if savedir[-1] != '/':
+                savedir += '/'
+
+            filenames = [f for f in os.listdir(dir) if os.path.isfile(os.path.join(dir, f))]
+
+            for filename in filenames:
+                output_dict = parse_file(language, dir, filename[:-4])
+                destination = savedir + filename[:-4] + '.json'
+                with open(destination, 'w') as json_file:
+                    json.dump(output_dict, json_file)
+
+        elif cmd[0] == 'add_phase2':
+            dir, savedir = cmd[1], cmd[2]
+            if dir[-1] != '/':
+                dir += '/'
+            if savedir[-1] != '/':
+                savedir += '/'
+
+            filenames = [f for f in os.listdir(dir) if os.path.isfile(os.path.join(dir, f))]
+
+            for filename in filenames:
+                output_dict = parse_file_phase2(dir, filename[:-4])
+                destination = savedir + filename[:-4] + '.json'
+                with open(destination, 'w') as json_file:
+                    json.dump(output_dict, json_file)
