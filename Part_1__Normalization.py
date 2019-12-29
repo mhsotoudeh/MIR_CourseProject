@@ -34,6 +34,7 @@ def remove_persian_stopwords(tokenized_text):
 
 def normalize_english(text):
     # Step 1: Tokenization and Remove Punctuation
+    text = text.replace('_', ' ')
     tokenizer = RegexpTokenizer('\w+')
     tokenized_text = tokenizer.tokenize(text.lower())
 
