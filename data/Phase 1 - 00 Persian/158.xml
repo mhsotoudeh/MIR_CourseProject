@@ -1,0 +1,9 @@
+<page><title>مدیاویکی:Sharedupload-desc-here</title><text>{{fmbox
+| type  = system
+| id    = mw-sharedupload
+| image = [[File:Commons-logo.svg|40x40px|Wikimedia Commons logo|alt=]]
+| textstyle = font-size: 90%; text-align: center;
+| text  = &lt;div class="plainlinks"&gt;
+&lt;big&gt;این پرونده در [{{fullurl:Commons:Main Page/fa|uselang=fa}} ویکی‌انبار] موجود است. محتویات '''[{{fullurl:Commons:File:{{PAGENAME}}|uselang=fa}} صفحهٔ توصیف آن]''' در زیر نمایش داده می‌شود.&lt;/big&gt; &lt;br /&gt; ویکی‌انبار مخزن پرونده‌های رسانه‌ای آزاد است. {{sec link auto|commons|Commons:خوش آمدید|شما هم می‌توانید کمک کنید|padlock=yes}}.
+&lt;/div&gt;
+}}&lt;div class="metadata topicon" id="commons-icon" style="left:30px;"&gt;[[File:Commons-logo.svg|14px|link={{sec link image|commons|File:{{PAGENAME}} }}|این تصویر از ویکی‌انبار است.]]&lt;/div&gt;</text></page>

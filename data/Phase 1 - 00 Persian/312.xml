@@ -1,0 +1,37 @@
+<page><title>ویکی‌پدیا:فهرست الگوها</title><text>{{میان‌بر|وپ:الگو|وپ:فق}}
+'''الگوها'''، [[شابلون]]‌ها و جدول‌های از پیش تعیین‌شده‌ای هستند که برای استانداردسازی نمایش اطلاعات یا پیام‌های همسان بکار می‌روند. قالب‌ها به تشخیص سریعتر داده‌های دلخواه و همچنین [[ناوبری]] و گشت‌و‌گذار راحت‌تر از طریق پیوندها کمک می‌کنند.
+الگوهای موجود در ویکی‌پدیای فارسی به چند دسته زیر بخش می‌گردند:
+
+{| style="width:85%; border:1px solid 	#EAC117; background:#FFF380; color:black; padding:1em; font-size:120%; margin:1px auto;"
+|-
+|[[Image:David_face.png|30px]][[ویکی‌پدیا:الگوهای معرفی اشخاص|الگوهای جعبه معرفی اشخاص]]|| [[Image:Nuvola apps bookcase.svg|23px]][[ویکی‌پدیا:فهرست الگوهای موضوعی|الگوهای جعبه موضوعی]]
+|-
+| [[پرونده:Question book.svg|link=|25px|Right]][[ویکی‌پدیا:الگوهای نیاز|الگوهای نیاز]]||[[پرونده:Question book.svg|link=|25px|Right]][[ویکی‌پدیا:الگوهای خرد|الگوهای خرد]]
+|-
+| [[Image:Number theory symbol.svg|23px]][[ویکی‌پدیا:الگوهای تاریخ|الگوهای تاریخ]]||[[Image:Nuvola_apps_kmessedwords.png|23px]][[ویکی‌پدیا:الگوهای ویرایشی|الگوهای ویرایشی]]
+|-
+| [[پرونده:Pg View.gif|link=|23px|Right]] [[ویکی‌پدیا:الگوهای فهرست ساز|الگوهای فهرست ساز]]||[[Image:Emblem-important.svg|link=|25px|Right]][[ویکی‌پدیا:فهرست الگوهای پیامی|الگوهای پیامی]]
+|-
+| [[پرونده:Crystal_kthememgr.png|23px]][[ویکی‌پدیا:الگوهای کاربر|الگوهای کاربر]]||[[پرونده:Pg View.gif|link=|23px|Right]][[ویکی‌پدیا:فهرست الگوهای ناوبری|فهرست الگوهای ناوبری]]
+|-
+|[[پرونده:Question book.svg|link=|25px|Right]][[ویکی‌پدیا:فهرست الگوهای راهنما|فهرست الگوهای راهنما]]||[[پرونده:World Map Icon.svg|link=|30px|Right]][[ویکی‌پدیا:فهرست الگوهای مرتبط با نقشه|الگوهای مرتبط با نقشه]]
+
+|}
+ضمناً می‌توانید [[ویکی‌پدیا:وپ_الگو|ویکی‌پروژه الگوها]] را هم ببینید.
+==ایجاد الگو==
+'''''برای ایجاد الگو از کادر زیر استفاده کنید:'''''
+&lt;inputbox&gt;
+type=create
+editintro=User:Jahanipour/userboxing/uubbx
+preload=User:Jahanipour/userboxing/uubx
+default=الگو:
+buttonlabel=صفحه را ایجاد کن
+bgcolor=#eeeeff
+width=72
+&lt;/inputbox&gt;
+&lt;!-- END CONTENTS BOX --&gt;
+
+&lt;div style="font-size: smaller;"&gt;
+
+
+[[Category:فهرست‌ها]]</text></page>

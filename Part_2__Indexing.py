@@ -261,16 +261,19 @@ if __name__ == "__main__":
     # Read each document and add words
     dir = 'data/00 English/'
     while True:
-        cmd = input('Enter your command.\n')
+        cmd = input('Enter your command.\n').lower()
         cmd = shlex.split(cmd)
 
-        if cmd[0] == 'addfile':
+        if cmd[0] == 'exit':
+            break
+
+        elif cmd[0] == 'addfile':  # Example: addfile "data/Phase 1 - 01 English/file.json"
             last_slash = cmd[1].rfind('/')
             dir = cmd[1][:last_slash + 1]
             filename = cmd[1][last_slash + 1:-5]
             add_file(trie, dir, filename)
 
-        elif cmd[0] == 'adddir':
+        elif cmd[0] == 'adddir':  # Example: adddir "data/Phase 1 - 01 English"
             dir = cmd[1]
             if dir[-1] != '/':
                 dir += '/'
@@ -278,9 +281,6 @@ if __name__ == "__main__":
 
             for filename in filenames:
                 add_file(trie, dir, filename[:-5])
-
-        elif cmd[0] == 'exit':
-            break
 
     store_file = open('store_file', 'w', encoding='utf8')
     trie_dict = trie.to_dict()

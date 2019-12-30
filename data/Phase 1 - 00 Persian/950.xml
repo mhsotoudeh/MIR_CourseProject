@@ -1,0 +1,16 @@
+<page><title>الگو:حس-ر۱</title><text>{{Db-meta
+|bot={{{bot|}}}
+|raw={{{raw|}}}
+|criterion=ر۱
+|1=&amp;#32;به عنوان ردهٔ خالی که در حال حاضر در [[ویکی‌پدیا:فرایند حذف|فرایند حذف]] نیست و دست کم {{{days|۴}}} روز خالی مانده
+|temp=Db-catempty-notice
+|summary=Empty category
+}}&lt;includeonly&gt;{{#ifeq:{{PAGESINCAT:{{PAGENAME}}}}|۰||&lt;div class="error"&gt;''این رده خالی به نظر نمی‌رسد!''&lt;/div&gt;}}
+{{گرداننده رده
+| all = [[رده:رده‌های نامزد حذف سریع]]
+| nocat = {{{nocat|}}}
+| category2 = {{{category|¬}}}
+}}&lt;/includeonly&gt;&lt;noinclude&gt;
+{{توضیحات}}
+&lt;!-- Add categories and interwikis to the /doc subpage, not here! --&gt;
+&lt;/noinclude&gt;</text></page>
