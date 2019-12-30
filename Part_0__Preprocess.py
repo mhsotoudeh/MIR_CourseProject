@@ -2,6 +2,7 @@ import pandas as pd
 import xml.etree.ElementTree as ET
 from xml.etree.ElementTree import ElementTree, Element, SubElement
 
+
 def get_tag_index(root, tag):
     for i in range(len(root)):
         if root[i].tag == tag:

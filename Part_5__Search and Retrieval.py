@@ -89,13 +89,13 @@ for term_idx in range(len(dictionary)):
         if tf == 0:
             doc_term_matrix[doc_idx][term_idx] = 0
         else:
-            doc_term_matrix[doc_idx][term_idx] = (1 + math.log(tf, 10)) * math.log(docs_count/df, 10)
+            doc_term_matrix[doc_idx][term_idx] = (1 + math.log(tf, 10)) * math.log(docs_count / df, 10)
 
 # Normalizing Document Vectors
 normalized_doc_term_matrix = normalize_rows(doc_term_matrix)
 
 # Determine search type
-search_type = 'proximity' # Or 'proximity'
+search_type = 'proximity'  # Or 'proximity'
 query = 'seek second'
 window = 5
 
@@ -115,7 +115,6 @@ for term_idx in range(len(dictionary)):
         query_vector[term_idx] = 1 + math.log(tf, 10)
 
 normalized_query_vector = query_vector / np.linalg.norm(query_vector)
-
 
 # Search
 if search_type == 'normal':

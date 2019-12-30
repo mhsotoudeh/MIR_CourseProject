@@ -1,4 +1,3 @@
-from nltk import RegexpTokenizer, PorterStemmer
 import Part_3__Index_Comperssion as ic
 import json
 import os
@@ -97,7 +96,7 @@ class TrieNode:
             if char in iter_node.children:
                 iter_node = iter_node.children[char]
             else:
-                print("word doesn't exist:", word)
+                # print("word doesn't exist:", word)
                 return
         if iter_node.posting_list is not None and iter_node.word == word:
             out = dict()
@@ -108,7 +107,8 @@ class TrieNode:
             return out
         else:
             # should never reach here
-            print("(shouldn't reach here) word doesn't exist:", word)
+            # print(iter_node.posting_list is None)
+            # print("(shouldn't reach here) word doesn't exist:", word)
             return
 
     def get_num_of_docs(self, word):
@@ -156,7 +156,7 @@ class TrieNode:
 
 class Bigrams:
     _bigrams = dict()
-    letters = 'abcdefghijklmnopqrstuvwxyzابپتثجچحخدذرزژسشصضطظعغفقکگلمنوهی'
+    letters = 'abcdefghijklmnopqrstuvwxyz0123456789ابپتثجچحخدذرزژسشصضطظعغفقکگلمنوهی'
     for c_1 in letters:
         _bigrams[c_1] = dict()
         for c_2 in letters:
@@ -244,7 +244,7 @@ def levenshtein(s1, s2):
 
 
 def add_file(trie, dir, id):  # id is filename
-    with open(dir+id+'.json', 'r') as f:
+    with open(dir + id + '.json', 'r') as f:
         input_dict = json.load(f)
         text = input_dict['text']
 
@@ -252,6 +252,7 @@ def add_file(trie, dir, id):  # id is filename
         for word in text:
             trie.add_word(word, id, position)
             position += 1
+
 
 if __name__ == "__main__":
     # Create Trie
@@ -265,8 +266,8 @@ if __name__ == "__main__":
 
         if cmd[0] == 'addfile':
             last_slash = cmd[1].rfind('/')
-            dir = cmd[1][:last_slash+1]
-            filename = cmd[1][last_slash+1:-5]
+            dir = cmd[1][:last_slash + 1]
+            filename = cmd[1][last_slash + 1:-5]
             add_file(trie, dir, filename)
 
         elif cmd[0] == 'adddir':
