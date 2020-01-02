@@ -1,6 +1,6 @@
 import numpy as np
-import Part_1__Normalization as nrm
-import Part_2__Indexing as idx
+import Phase_1__Part_1_Normalization as nrm
+import Phase_1__Part_2_Indexing as idx
 import json
 import sys
 import math

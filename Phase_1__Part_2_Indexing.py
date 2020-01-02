@@ -1,4 +1,4 @@
-import Part_3__Index_Comperssion as ic
+import Phase_1__Part_3_Index_Compression as ic
 import json
 import os
 import shlex
