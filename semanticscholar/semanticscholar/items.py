@@ -10,6 +10,7 @@ import scrapy
 
 class SemanticscholarItem(scrapy.Item):
     # define the fields for your item here like:
+    link = scrapy.Field()
     title = scrapy.Field()
     abstract = scrapy.Field()
     year = scrapy.Field()
