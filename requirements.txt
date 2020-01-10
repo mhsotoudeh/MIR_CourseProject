@@ -4,3 +4,4 @@ numpy
 hazm
 nltk
 pandas
+Scrapy
