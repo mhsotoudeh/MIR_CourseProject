@@ -8,3 +8,6 @@ hazm
 nltk
 pandas
 Scrapy
+gensim
+matplotlib
+yellowbrick
