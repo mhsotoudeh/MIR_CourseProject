@@ -1,3 +1,6 @@
+gensim
+matplotlib
+yellowbrick
 scikit-learn
 scipy
 numpy
