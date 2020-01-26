@@ -2,6 +2,7 @@ import Phase_1__Part_3_Index_Compression as ic
 import json
 import os
 import shlex
+import operator
 
 
 class PositionalPostingNode:
@@ -156,22 +157,27 @@ class TrieNode:
 
 class Bigrams:
     _bigrams = dict()
-    letters = 'abcdefghijklmnopqrstuvwxyz0123456789ابپتثجچحخدذرزژسشصضطظعغفقکگلمنوهی'
+    # adddir "D:\Education\SUT\Courses\Modern Information Retrieval\Project\Git\data\Phase 1 - 01 Persian"
+    letters = 'oкСди+,ë*;٬،|_-=\'\u200c #abcdefghijklmnopрqrstuvwxхyzABCDEFGHIJKLMNOОPQRSTUVWXYZ0123456789%&٪./<>٠١٢٣٤٥٦٧٨٩۰۱۲۳۴۵۶۷۸۹آابپتثجچحخدذرزژسشصضطظعغفقکگلمنوهیئ'
     for c_1 in letters:
-        _bigrams[c_1] = dict()
-        for c_2 in letters:
-            _bigrams[c_1][c_2] = []
+        if c_1 in _bigrams:
+            _bigrams[c_1] = dict()
+            for c_2 in letters:
+                if c_2 in _bigrams[c_1]:
+                    _bigrams[c_1][c_2] = []
 
     @staticmethod
     def add_word(word):
         for bigram in find_word_bigrams(word):
-            if word not in Bigrams._bigrams[bigram[0]][bigram[1]]:
-                Bigrams._bigrams[bigram[0]][bigram[1]].append(word)
+            if bigram[0] in Bigrams._bigrams and bigram[1] in Bigrams._bigrams[bigram[0]]:
+                if word not in Bigrams._bigrams[bigram[0]][bigram[1]]:
+                    Bigrams._bigrams[bigram[0]][bigram[1]].append(word)
 
     @staticmethod
     def remove_word(word):
         for bigram in find_word_bigrams(word):
-            Bigrams._bigrams[bigram[0]][bigram[1]].remove(word)
+            if bigram[0] in Bigrams._bigrams and bigram[1] in Bigrams._bigrams[bigram[0]]:
+                Bigrams._bigrams[bigram[0]][bigram[1]].remove(word)
 
     @staticmethod
     def get_similar_words(word):
@@ -280,7 +286,25 @@ if __name__ == "__main__":
             filenames = [f for f in os.listdir(dir) if os.path.isfile(os.path.join(dir, f))]
 
             for filename in filenames:
+                print(filename)
                 add_file(trie, dir, filename[:-5])
+
+        elif cmd[0] == 'get':
+            res = trie.get_postings_list(cmd[1])
+            print(trie.get_postings_list(cmd[1]))
+            if res is None:
+                sim = Bigrams.get_similar_words(cmd[1])
+                print("similar:", list(sim.keys()))
+                m_sim = max(sim.items(), key=operator.itemgetter(1))[0]
+                print("most similar:", m_sim)
+                print(trie.get_postings_list(m_sim))
+
+        elif cmd[0] == 'mode':
+            res = dict()
+            for wd in TrieNode.WORDS:
+                res[wd] = trie.get_num_of_docs(word=wd)
+            res = {k: v for k, v in sorted(res.items(), key=lambda item: item[1])}
+            print(list(res.keys())[-5], list(res.keys())[-2], list(res.keys())[-3], list(res.keys())[-4], list(res.keys())[-1])
 
     store_file = open('store_file', 'w', encoding='utf8')
     trie_dict = trie.to_dict()
@@ -395,6 +419,6 @@ if __name__ == "__main__":
     # print('decoded:', decoded_str)
     # store_file.close()
 
-    trie_d = TrieNode.from_dict(json.loads(ic.decode()))
-    print('checking')
-    print(trie_d.get_postings_list('seek'))
+    # trie_d = TrieNode.from_dict(json.loads(ic.decode()))
+    # print('checking')
+    # print(trie_d.get_postings_list('seek'))
