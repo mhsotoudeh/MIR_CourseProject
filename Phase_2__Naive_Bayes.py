@@ -15,6 +15,7 @@ def get_tag(word_list):
 
 
 def naive_bayes_classification():
+    global probabilities, tag_sums
     normalized_doc_term_matrix, dictionary, tags, tag_sums, _ = uf.get_tf_idf_vector_space('data/raw/phase2_train.csv')
 
     probabilities = dict()
@@ -27,3 +28,4 @@ def naive_bayes_classification():
             )
 
     uf.print_stats_nb(get_tag, 'data/raw/phase2_test.csv')
+    uf.print_stats_nb(get_tag, 'data/raw/phase2_train.csv')

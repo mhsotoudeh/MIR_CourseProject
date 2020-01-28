@@ -1,3 +1,5 @@
+import csv
+
 from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 
 from yellowbrick.cluster import KElbowVisualizer
@@ -12,7 +14,7 @@ from sklearn.mixture import GaussianMixture as Gmm
 from matplotlib.patches import Ellipse
 from sklearn import metrics
 
-import Part_1__Normalization as nrm
+import Phase_1__Part_1_Normalization as nrm
 
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -45,6 +47,11 @@ N = 6
 kmeans = KMeans(n_clusters=N)
 kmeans.fit(word2vec_mat)
 targets = kmeans.labels_
+
+with open('kmeans-w2v.csv', 'w') as outfile:
+    csv_writer = csv.writer(outfile, dialect='excel', delimiter=',')
+    csv_writer.writerows([["ID", "Cluster"]])
+    csv_writer.writerows([[docs["ID"].tolist()[i], targets[i]] for i in range(len(targets))])
 
 # *** visualisation ***
 ax[0].set_facecolor('xkcd:cyan')
@@ -79,6 +86,11 @@ hier = AgglomerativeClustering(n_clusters=N)
 hier.fit(word2vec_mat)
 targets = hier.labels_
 
+with open('hierarchical-w2v.csv', 'w') as outfile:
+    csv_writer = csv.writer(outfile, dialect='excel', delimiter=',')
+    csv_writer.writerows([["ID", "Cluster"]])
+    csv_writer.writerows([[docs["ID"].tolist()[i], targets[i]] for i in range(len(targets))])
+
 # *** visualisation ***
 ax[1].set_facecolor('xkcd:cyan')
 ax[1].set_xlabel('PC 1', fontsize=15)
@@ -94,6 +106,11 @@ N = 2
 gmm = Gmm(N, n_init=2)
 gmm.fit(word2vec_mat)
 targets = gmm.predict(word2vec_mat)
+
+with open('gmm-w2v.csv', 'w') as outfile:
+    csv_writer = csv.writer(outfile, dialect='excel', delimiter=',')
+    csv_writer.writerows([["ID", "Cluster"]])
+    csv_writer.writerows([[docs["ID"].tolist()[i], targets[i]] for i in range(len(targets))])
 
 # *** visualisation ***
 ax[2].set_facecolor('xkcd:cyan')

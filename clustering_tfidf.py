@@ -1,3 +1,5 @@
+import csv
+
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 from yellowbrick.cluster import KElbowVisualizer
@@ -12,7 +14,7 @@ from sklearn.mixture import GaussianMixture as Gmm
 from matplotlib.patches import Ellipse
 from sklearn import metrics
 
-import Part_1__Normalization as nrm
+import Phase_1__Part_1_Normalization as nrm
 
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -48,6 +50,11 @@ kmeans = KMeans(n_clusters=N)
 kmeans.fit(pc_1000)
 targets = kmeans.labels_
 
+with open('kmeans-tfidf.csv', 'w') as outfile:
+    csv_writer = csv.writer(outfile, dialect='excel', delimiter=',')
+    csv_writer.writerows([["ID", "Cluster"]])
+    csv_writer.writerows([[docs["ID"].tolist()[i], targets[i]] for i in range(len(targets))])
+
 # *** visualisation ***
 ax[0].set_facecolor('xkcd:sky blue')
 ax[0].set_xlabel('PC 1', fontsize=15)
@@ -79,6 +86,11 @@ hier = AgglomerativeClustering(n_clusters=N)
 hier.fit(pc_1000)
 targets = hier.labels_
 
+with open('hierarchical-tfidf.csv', 'w') as outfile:
+    csv_writer = csv.writer(outfile, dialect='excel', delimiter=',')
+    csv_writer.writerows([["ID", "Cluster"]])
+    csv_writer.writerows([[docs["ID"].tolist()[i], targets[i]] for i in range(len(targets))])
+
 # *** visualisation ***
 ax[1].set_facecolor('xkcd:sky blue')
 ax[1].set_xlabel('PC 1', fontsize=15)
@@ -94,6 +106,11 @@ N = 7
 gmm = Gmm(6, n_init=2)
 gmm.fit(pc_1000)
 targets = gmm.predict(pc_1000)
+
+with open('gmm-tfidf.csv', 'w') as outfile:
+    csv_writer = csv.writer(outfile, dialect='excel', delimiter=',')
+    csv_writer.writerows([["ID", "Cluster"]])
+    csv_writer.writerows([[docs["ID"].tolist()[i], targets[i]] for i in range(len(targets))])
 
 # *** visualisation ***
 ax[2].set_facecolor('xkcd:sky blue')
