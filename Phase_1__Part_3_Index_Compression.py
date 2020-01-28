@@ -145,15 +145,15 @@ def encode(trie_dict):
 
         for doc in trie_dict[word]:
             store_file.write(b'"')
-            store_file.write(bytes([int(doc)]))
+            store_file.write(int(doc).to_bytes(2, 'little'))
             store_file.write(b'":[')
 
             gaps = numbers_to_gaps(trie_dict[word][doc])
 
             # Gamma Code
-            # encoded = '1' + ic.encode_gamma_sequence(gaps)
+            encoded = '1' + encode_gamma_sequence(gaps)
             # Variable Byte
-            encoded = '1' + encode_vb_sequence(gaps)
+            # encoded = '1' + encode_vb_sequence(gaps)
 
             bytes_required = int(len(encoded) / 8) + 1
             store_file.write(bytes_required.to_bytes(1, 'big'))

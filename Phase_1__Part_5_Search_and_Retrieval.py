@@ -101,13 +101,14 @@ def get_doc_term_matrix(trie, type):
 def get_query_vector(query, type):
     query_vector = np.zeros(terms_count)
     for term_idx in range(len(dictionary)):
-        postings_list = trie.get_postings_list(dictionary[term_idx])
-        df = len(postings_list)
-        tf = np.count_nonzero(query == dictionary[term_idx])
-        if tf == 0:
-            query_vector[term_idx] = 0
-        else:
-            query_vector[term_idx] = get_weight(tf, df, type[:2])
+        for wd in query:
+            postings_list = trie.get_postings_list(dictionary[term_idx])
+            df = len(postings_list)
+            tf = np.count_nonzero(wd == dictionary[term_idx])
+            if tf == 0:
+                query_vector[term_idx] = 0
+            else:
+                query_vector[term_idx] = get_weight(tf, df, type[:2])
 
     if type[2] == 'c':  # Normalizing Query Vector
         query_vector = query_vector / np.linalg.norm(query_vector)
@@ -146,13 +147,14 @@ if __name__ == "__main__":
 
         elif cmd[0] == 'search':  # Example: search normal "seek system" OR search proximity "seek system" 5
             search_type = cmd[1]  # normal or proximity
-            query = cmd[2]
+            query = cmd[2:]
             window = math.inf
             if search_type == 'proximity':
                 window = cmd[3]
 
             # Preprocess Query
-            query = np.array(nrm.normalize_english(query))
+            for i in range(len(query)):
+                query[i] = np.array(nrm.normalize_english(query[i]))
             # query enhancement
 
             # Get Query Vector

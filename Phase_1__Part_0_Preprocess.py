@@ -4,7 +4,6 @@ from xml.etree.ElementTree import ElementTree, Element, SubElement
 import shlex
 
 
-
 def get_tag_index(root, tag):
     for i in range(len(root)):
         if root[i].tag == tag:

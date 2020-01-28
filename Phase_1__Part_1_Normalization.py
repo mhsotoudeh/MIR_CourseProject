@@ -133,6 +133,7 @@ if __name__ == "__main__":
 
             for filename in filenames:
                 output_dict = parse_file(language, dir, filename[:-4])
+                print(output_dict)
                 destination = savedir + filename[:-4] + '.json'
                 with open(destination, 'w') as json_file:
                     json.dump(output_dict, json_file)
